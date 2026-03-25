@@ -30,15 +30,21 @@
     },
     "manualUrls": [
       {
-        "name": "User Manual (1000-1500W)",
+        "name": "User Manual RFL-C1000W+H",
         "docType": "User Manual",
-        "url": "https://en.raycuslaser.com/upload/20230829/1h902j1lp1trv1hr8o.pdf",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-C1000W+H%20(CW%20laser)%5Buser%20manual%5D%20(1.1).pdf",
         "language": "EN"
       },
       {
-        "name": "Datasheet RFL-C1000X",
-        "docType": "Datasheet",
-        "url": "https://en.raycuslaser.com/upload/20230919/1h9v4l59jd18dss1o.pdf",
+        "name": "User Guide 1000W Small CW",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20220324/1futhhvat162t1f17o.pdf",
+        "language": "EN"
+      },
+      {
+        "name": "CE Global 1000-1500W Guide",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20230829/1h902j1lp1trv1hr8o.pdf",
         "language": "EN"
       }
     ],
@@ -138,7 +144,14 @@
       "humidity": "30–70% (non-condensing)",
       "weight": "< 35 kg"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Guide RFL-C015H1-CE",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20241129/1idri3fil178f6ffo.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-T1H",
@@ -196,15 +209,21 @@
     },
     "manualUrls": [
       {
-        "name": "User Manual (1000-1500W)",
+        "name": "User Manual RFL-C1500X",
         "docType": "User Manual",
-        "url": "https://en.raycuslaser.com/upload/20230829/1h902j1lp1trv1hr8o.pdf",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-C1500X%20(CW%20laser)%5Buser%20manual%5D.pdf",
         "language": "EN"
       },
       {
-        "name": "Datasheet RFL-C1500X",
-        "docType": "Datasheet",
-        "url": "https://en.raycuslaser.com/upload/20230919/1h9v4m11h14i71e8fo.pdf",
+        "name": "User Guide 1500W Small CW",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20220324/1futhmi6h1r9g1vrto.pdf",
+        "language": "EN"
+      },
+      {
+        "name": "CE Global 1000-1500W Guide",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20230829/1h902j1lp1trv1hr8o.pdf",
         "language": "EN"
       }
     ],
@@ -302,15 +321,9 @@
     },
     "manualUrls": [
       {
-        "name": "用户手册 RFL-C020H",
-        "docType": "用户手册",
-        "url": "https://en.raycuslaser.com/upload/20240315/1icl7n11g1v3r1jas18f9o.pdf",
-        "language": "CN"
-      },
-      {
-        "name": "Datasheet RFL-C020H",
-        "docType": "Datasheet",
-        "url": "https://en.raycuslaser.com/upload/20240315/1icl7n0lr1s7514qs1jv7o.pdf",
+        "name": "User Guide RFL-C020H/C025H",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20241129/1idri3fil178f6ffo.pdf",
         "language": "EN"
       }
     ],
@@ -390,7 +403,14 @@
       "humidity": "30–70% (non-condensing)",
       "weight": "< 45 kg"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Guide RFL-C020H/C025H",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20241129/1idri3fil178f6ffo.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-T1H",
@@ -456,13 +476,13 @@
       {
         "name": "User Manual RFL-C3000S",
         "docType": "User Manual",
-        "url": "https://en.raycuslaser.com/upload/20230829/1h902kcpk1n6n1nss1v29o.pdf",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-C3000S%20(CW%20laser)%5Buser%20manual%5D(1.0).pdf",
         "language": "EN"
       },
       {
-        "name": "Datasheet RFL-C3000S",
-        "docType": "Datasheet",
-        "url": "https://en.raycuslaser.com/upload/20230919/1h9v4nrtq1k6rqud1d6fo.pdf",
+        "name": "User Guide RFL-C3000S",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210820/1fdgockc01kctvn9o.pdf",
         "language": "EN"
       }
     ],
@@ -565,22 +585,16 @@
     },
     "manualUrls": [
       {
-        "name": "User Manual RFL-C6000S",
+        "name": "User Manual RFL-C6000X",
         "docType": "User Manual",
-        "url": "https://en.raycuslaser.com/upload/20230829/1h902m8sr112e1ggu1n1io.pdf",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-C6000X%20%20(CW%20laser)%5Buser%20manual%5D%20(1.0).pdf",
         "language": "EN"
       },
       {
-        "name": "Datasheet RFL-C6000S",
-        "docType": "Datasheet",
-        "url": "https://en.raycuslaser.com/upload/20230919/1h9v4p1ro17bq1c3d15v6o.pdf",
-        "language": "EN"
-      },
-      {
-        "name": "用户手册 RFL-C6000S",
-        "docType": "用户手册",
+        "name": "User Guide RFL-C4000S (similar)",
+        "docType": "User Manual",
         "url": "https://en.raycuslaser.com/upload/20220224/1fsld7gcv1vqlae4o.pdf",
-        "language": "CN"
+        "language": "EN"
       }
     ],
     "errorCodes": [
@@ -671,15 +685,15 @@
     },
     "manualUrls": [
       {
-        "name": "User Manual RFL-C12000S",
+        "name": "User Guide RFL-C12000S-CE",
         "docType": "User Manual",
         "url": "https://en.raycuslaser.com/upload/20230829/1h902nr95l0c1sjto.pdf",
         "language": "EN"
       },
       {
-        "name": "Datasheet RFL-C12000S",
-        "docType": "Datasheet",
-        "url": "https://en.raycuslaser.com/upload/20230919/1h9v4qemm1v9b1j9g11l2o.pdf",
+        "name": "User Manual RFL-C12000X",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-C12000X%20(CW%20laser)%5Buser%20manual%5D%20%20(1.0).pdf",
         "language": "EN"
       }
     ],
@@ -781,15 +795,9 @@
     },
     "manualUrls": [
       {
-        "name": "User Manual RFL-C20000M",
+        "name": "User Guide RFL-C20000M-CE",
         "docType": "User Manual",
-        "url": "https://en.raycuslaser.com/upload/20231015/1hcg5b9h1190h1qac1v2do.pdf",
-        "language": "EN"
-      },
-      {
-        "name": "Datasheet RFL-C20000M",
-        "docType": "Datasheet",
-        "url": "https://en.raycuslaser.com/upload/20231015/1hcg5b73h1vu9uoq11mjo.pdf",
+        "url": "https://en.raycuslaser.com/upload/20230829/1h902ror77hipimo.pdf",
         "language": "EN"
       }
     ],
@@ -1055,9 +1063,9 @@
     },
     "manualUrls": [
       {
-        "name": "Datasheet RFL-C2000S-HP",
-        "docType": "Datasheet",
-        "url": "https://en.raycuslaser.com/upload/20240601/1iek3a1dp1mgs1c1t12gno.pdf",
+        "name": "HP 2000-3000W Guide",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20230829/1h904r3c1d4pdl5o.pdf",
         "language": "EN"
       }
     ],
@@ -1131,7 +1139,14 @@
       "weight": "< 65 kg",
       "dimensions": "485 × 172 × 727 mm"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "HP 2000-3000W Guide",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20230829/1h904r3c1d4pdl5o.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-T1H",
@@ -1192,9 +1207,9 @@
     },
     "manualUrls": [
       {
-        "name": "Datasheet RFL-C4000S-HP",
-        "docType": "Datasheet",
-        "url": "https://en.raycuslaser.com/upload/20240601/1iek3b2jr1a4u1f6h1bgeo.pdf",
+        "name": "User Guide RFL-C4000S",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20220224/1fsld7gcv1vqlae4o.pdf",
         "language": "EN"
       }
     ],
@@ -2000,7 +2015,14 @@
       "cooling": "Water Cooled",
       "operatingTemp": "10–40°C"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-A1000D",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-A1000D-(delivered%20direct%20diode%20laser)%5Buser%20manual%5D%EF%BC%881.1%EF%BC%89.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-DIODE",
@@ -2046,7 +2068,14 @@
       "cooling": "Water Cooled",
       "operatingTemp": "10–40°C"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-A6000D",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-A6000D(delivered%20direct%20diode%20laser)%5Buser%20manual%5D%EF%BC%881.0%EF%BC%89.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-DIODE",
@@ -2105,9 +2134,9 @@
     },
     "manualUrls": [
       {
-        "name": "Datasheet RFL-QCW150/1500",
-        "docType": "Datasheet",
-        "url": "https://en.raycuslaser.com/upload/20230601/1h3g5m2r91djq1p9s1c8eo.pdf",
+        "name": "User Guide RFL-QCW150/1500",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210820/1fdgombr313oj1he5o.pdf",
         "language": "EN"
       }
     ],
@@ -2629,7 +2658,14 @@
       "dimensions": "215 × 95 × 286 mm",
       "cableLength": "2 m"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-P20MX",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-P20MX(MOPA%20pulsed%20laser)%5Buser%20manual%5D%EF%BC%881.0%EF%BC%89.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",
@@ -2695,7 +2731,14 @@
       "dimensions": "215 × 95 × 286 mm",
       "cableLength": "3 m"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-P30MX",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-P30MX-(MOPA%20pulsed%20laser)%5Buser%20manual%5D%EF%BC%881.0%EF%BC%89.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",
@@ -2764,15 +2807,15 @@
     },
     "manualUrls": [
       {
-        "name": "Datasheet RFL-P60MX",
-        "docType": "Datasheet",
-        "url": "https://en.raycuslaser.com/upload/20230601/1h3g5o4sq1f7p18bs1m3jo.pdf",
+        "name": "User Manual RFL-P60MX",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-P60MX(MOPA%20pulsed%20laser)%5Buser%20manual%5D.pdf",
         "language": "EN"
       },
       {
-        "name": "产品说明书 RFL-P60MX",
-        "docType": "产品说明书",
-        "url": "https://en.raycuslaser.com/upload/20230601/1h3g5o3rk1c2m1ahj1d8fo.pdf",
+        "name": "用户手册 RFL-P60MX",
+        "docType": "用户手册",
+        "url": "https://en.raycuslaser.com/upload/20210802/RFL-P60MX%20(MOPA%20pulsed%20laser)%5Buser%20manual%5D%20.pdf",
         "language": "CN"
       }
     ],
@@ -2841,7 +2884,14 @@
       "dimensions": "350 × 320 × 120 mm",
       "cableLength": "3 m"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-P70MX",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-P70MX(MOPA%20pulsed%20laser)%5Buser%20manual%5D1.0%EF%BC%89.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",
@@ -2910,9 +2960,9 @@
     },
     "manualUrls": [
       {
-        "name": "Datasheet RFL-P100MX",
-        "docType": "Datasheet",
-        "url": "https://en.raycuslaser.com/upload/20230601/1h3g5p2ek1kgt1j6h1a3mo.pdf",
+        "name": "User Manual RFL-P100MX",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-P100MX(MOPA%20pulsed%20laser)%5Buser%20manual%5D%EF%BC%881.0%EF%BC%89.pdf",
         "language": "EN"
       }
     ],
@@ -2981,7 +3031,14 @@
       "dimensions": "350 × 320 × 120 mm",
       "cableLength": "3 m"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-P120MX",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-P120MX(MOPA%20pulsed%20laser)%5Buser%20manual%5D%EF%BC%881.0%EF%BC%89.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",
@@ -3047,7 +3104,14 @@
       "dimensions": "460 × 395 × 130 mm",
       "cableLength": "3 m"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-P200MX",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-P200MX(MOPA%20pulsed%20laser)%5Buser%20manual%5D%EF%BC%881.0%EF%BC%89.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",
@@ -3178,7 +3242,14 @@
       "dimensions": "290 × 225 × 95 mm",
       "cableLength": "2 m"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-P20QE",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-P20QE%20(Q-switched%20pulsed%20laser)%5Buser%20manual%5D.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",
@@ -3237,7 +3308,14 @@
       "powerStability": "< 3%",
       "cableLength": "2 m"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-P30QB",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-P30QB%20(Q-switched%20pulsed%20laser)%5Buser%20manual%5D.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",
@@ -3296,7 +3374,14 @@
       "powerStability": "< 5%",
       "cableLength": "2 m"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-P50QB",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-P50QB%20(Q-switched%20pulsed%20laser)%5Buser%20manual%5D.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",
@@ -3414,7 +3499,14 @@
       "dimensions": "310 × 95 × 260 mm",
       "cableLength": "3 m"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-P70Q",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-P70Q(Q-switched%20pulsed%20laser)%5Buser%20manual%5D.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",
@@ -3474,7 +3566,14 @@
       "dimensions": "360 × 396 × 123 mm",
       "cableLength": "2 m"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-P100Q",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-P100Q%20(Q-switched%20pulsed%20laser)%5Buser%20manual%5D.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",
@@ -3534,7 +3633,26 @@
       "dimensions": "485 × 237 × 764 mm",
       "cableLength": "5 m"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-P200/P300",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210802/RFL-P200%EF%BC%8FRFL-P300%20(pulsed%20fiber%20laser)%5Buser%20manual%5D.pdf",
+        "language": "EN"
+      },
+      {
+        "name": "User Guide RFL-P300",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-P300(pulsed%20cleaning%20laser)%5Buser%20manual%5D(1.0).pdf",
+        "language": "EN"
+      },
+      {
+        "name": "Laser Cleaning Guide",
+        "docType": "Brochure",
+        "url": "https://en.raycuslaser.com/upload/20210803/cleaning%20folding.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",
@@ -3606,7 +3724,26 @@
       "dimensions": "485 × 237 × 764 mm",
       "cableLength": "5 m"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-P200/P300",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210802/RFL-P200%EF%BC%8FRFL-P300%20(pulsed%20fiber%20laser)%5Buser%20manual%5D.pdf",
+        "language": "EN"
+      },
+      {
+        "name": "User Guide RFL-P300 Cleaning",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-P300(pulsed%20cleaning%20laser)%5Buser%20manual%5D(1.0).pdf",
+        "language": "EN"
+      },
+      {
+        "name": "Laser Cleaning Guide",
+        "docType": "Brochure",
+        "url": "https://en.raycuslaser.com/upload/20210803/cleaning%20folding.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",
@@ -3682,7 +3819,13 @@
       {
         "name": "User Manual RFL-P500",
         "docType": "User Manual",
-        "url": "https://en.raycuslaser.com/upload/20230601/1h3g5q1dp1a8k1d3g1e2fo.pdf",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-P500(pulsed%20cleaning%20laser)%5Buser%20manual%5D.pdf",
+        "language": "EN"
+      },
+      {
+        "name": "Laser Cleaning Guide",
+        "docType": "Brochure",
+        "url": "https://en.raycuslaser.com/upload/20210803/cleaning%20folding.pdf",
         "language": "EN"
       }
     ],
@@ -3749,7 +3892,14 @@
       "cooling": "Water Cooled",
       "operatingTemp": "10–40°C"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "Laser Cleaning Guide",
+        "docType": "Brochure",
+        "url": "https://en.raycuslaser.com/upload/20210803/cleaning%20folding.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",
@@ -3827,6 +3977,12 @@
         "docType": "User Manual",
         "url": "https://en.raycuslaser.com/upload/20230601/1h3g5r3ek1m7p1f4h1b2go.pdf",
         "language": "EN"
+      },
+      {
+        "name": "Laser Cleaning Guide",
+        "docType": "Brochure",
+        "url": "https://en.raycuslaser.com/upload/20210803/cleaning%20folding.pdf",
+        "language": "EN"
       }
     ],
     "errorCodes": [
@@ -3899,7 +4055,14 @@
       "dimensions": "1018 × 836 × 850 mm",
       "cableLength": "20 m"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "Laser Cleaning Guide",
+        "docType": "Brochure",
+        "url": "https://en.raycuslaser.com/upload/20210803/cleaning%20folding.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",
@@ -4320,7 +4483,14 @@
       "cooling": "Air Cooled",
       "operatingTemp": "10–40°C"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-A200D",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/Fiber%20Delivered%20Direct%20Diode%20RFL-A200D%20Laser%20%5Buser%20manual%5D.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-DIODE",
@@ -4366,7 +4536,14 @@
       "cooling": "Air Cooled",
       "operatingTemp": "10–40°C"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-A200D",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/Fiber%20Delivered%20Direct%20Diode%20RFL-A200D%20Laser%20%5Buser%20manual%5D.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-DIODE",
@@ -4412,7 +4589,14 @@
       "cooling": "Air Cooled",
       "operatingTemp": "10–40°C"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-A500D",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-A500D-(delivered%20direct%20diode%20laser)%5Buser%20manual%5D(1.1%EF%BC%89.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-DIODE",
@@ -4458,7 +4642,14 @@
       "cooling": "Water Cooled",
       "operatingTemp": "10–40°C"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-A3000D",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-A3000D-(delivered%20direct%20diode%20laser)%5Buser%20manual%5D%EF%BC%881.0%EF%BC%89.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-DIODE",
@@ -4550,7 +4741,14 @@
       "cooling": "Water Cooled",
       "operatingTemp": "10–40°C"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-B500D Blue",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20210803/RFL-B500D-(delivered%20direct%20diode%20laser)%5Buser%20manual%5D%EF%BC%881.0%EF%BC%89.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-DIODE",
