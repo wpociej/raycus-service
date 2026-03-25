@@ -1,0 +1,62 @@
+[
+  {
+    "id": "mach-001",
+    "serialNumber": "RY2024-03-5678",
+    "modelId": "rfl-c3000s",
+    "modelName": "RFL-C3000S",
+    "ownerId": "customer-001",
+    "purchaseDate": "2024-03-15T00:00:00Z",
+    "warrantyExpiry": "2026-03-15T00:00:00Z",
+    "status": "active",
+    "verifiedByAdmin": true,
+    "registeredAt": "2024-03-20T00:00:00Z"
+  },
+  {
+    "id": "mach-002",
+    "serialNumber": "RY2024-06-1234",
+    "modelId": "rfl-c6000s",
+    "modelName": "RFL-C6000S",
+    "ownerId": "customer-001",
+    "purchaseDate": "2024-06-01T00:00:00Z",
+    "warrantyExpiry": "2026-06-01T00:00:00Z",
+    "status": "maintenance",
+    "verifiedByAdmin": true,
+    "registeredAt": "2024-06-05T00:00:00Z"
+  },
+  {
+    "id": "mach-003",
+    "serialNumber": "RY2025-01-9999",
+    "modelId": "rfl-c1500x",
+    "modelName": "RFL-C1500X",
+    "ownerId": "customer-001",
+    "purchaseDate": "2025-01-10T00:00:00Z",
+    "warrantyExpiry": "2027-01-10T00:00:00Z",
+    "status": "active",
+    "verifiedByAdmin": false,
+    "registeredAt": "2025-01-12T00:00:00Z"
+  },
+  {
+    "id": "mach-004",
+    "serialNumber": "RY2024-09-4321",
+    "modelId": "rfl-c12000s",
+    "modelName": "RFL-C12000S",
+    "ownerId": "customer-002",
+    "purchaseDate": "2024-09-01T00:00:00Z",
+    "warrantyExpiry": "2026-09-01T00:00:00Z",
+    "status": "active",
+    "verifiedByAdmin": true,
+    "registeredAt": "2024-09-03T00:00:00Z"
+  },
+  {
+    "id": "mach-005",
+    "serialNumber": "RY2025-02-7777",
+    "modelId": "rfl-c2000x",
+    "modelName": "RFL-C2000X",
+    "ownerId": "customer-002",
+    "purchaseDate": "2025-02-20T00:00:00Z",
+    "warrantyExpiry": "2027-02-20T00:00:00Z",
+    "status": "active",
+    "verifiedByAdmin": true,
+    "registeredAt": "2025-02-22T00:00:00Z"
+  }
+]

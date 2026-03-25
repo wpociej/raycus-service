@@ -1,0 +1,4417 @@
+[
+  {
+    "id": "rfl-c1000x-ce",
+    "name": "RFL-C1000X-CE",
+    "series": "Global-CE",
+    "category": "CW Fiber Laser",
+    "powerWatt": 1000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "1000W Single Module CW Fiber Laser Source. Third-generation compact design for metal cutting, welding, and engraving. CE certified.",
+    "specs": {
+      "outputPower": "1000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "< 1.5 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "modulationFrequency": "5 kHz",
+      "powerAdjustRange": "10–100%",
+      "fiberCore": "25 μm / 50 μm",
+      "outputConnector": "QBH",
+      "cableLength": "20 m",
+      "polarization": "Random",
+      "guideLaser": "Red, 0.5–1 mW",
+      "inputVoltage": "200–240V AC / 380V ±10%",
+      "controlMode": "RS232, AD, Super Terminal",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "storageTemp": "-10–60°C",
+      "humidity": "< 70% (non-condensing)",
+      "dimensions": "410 × 405 × 150 mm",
+      "weight": "< 25 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump module overheating (T1 sensor)",
+        "solution": "Check water cooling system. Verify chiller temperature. Restart when temp drops below 30°C.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T2H",
+        "description": "Beam combiner overheating (T2 sensor)",
+        "solution": "Check coolant flow rate to beam combiner. Inspect water lines for blockages.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T3H",
+        "description": "Output head overheating (T3 sensor)",
+        "solution": "Check output head cooling circuit. Clean output lens. Inspect QBH connector.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T1L",
+        "description": "Temperature below minimum operating range",
+        "solution": "Increase chiller water temperature. Ensure environment is above 10°C.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected — safety circuit open",
+        "solution": "Check external interlock wiring. Verify water chiller interlock signal.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm — excessive reflected light",
+        "solution": "Reduce power. Check material compatibility. Inspect protective lens.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure — output cannot reach set value",
+        "solution": "Clean protective lens and fiber end faces. Inspect QBH connector. Run calibration.",
+        "severity": "error"
+      },
+      {
+        "code": "E-DRV",
+        "description": "Internal constant current driver error",
+        "solution": "Restart laser. If persistent, contact Raycus technical support.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power output below threshold",
+        "solution": "Clean output lens and protective windows. Check fiber for damage.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature approaching upper limit",
+        "solution": "Check chiller operation. Clean heat exchanger. Verify ambient temperature.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-QBH",
+        "description": "QBH connector contamination detected",
+        "solution": "Clean QBH connector and fiber end face with lens tissue and IPA.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2023-01-15T00:00:00Z"
+  },
+  {
+    "id": "rfl-c015h1-ce",
+    "name": "RFL-C015H1-CE",
+    "series": "Global-CE",
+    "category": "CW Fiber Laser",
+    "powerWatt": 1200,
+    "wavelength": "1080 ± 5 nm",
+    "description": "1200W Lightweight CW Fiber Laser for Handheld Welding. Compact form factor optimized for portable welding applications. CE certified.",
+    "specs": {
+      "outputPower": "1200 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "1–2 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "modulationFrequency": "5 kHz",
+      "powerAdjustRange": "10–100%",
+      "fiberCore": "20 μm",
+      "outputConnector": "QBH",
+      "cableLength": "20 m",
+      "inputVoltage": "380 ± 10% VAC, Three Phase",
+      "controlMode": "RS232, AD",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "humidity": "30–70% (non-condensing)",
+      "weight": "< 35 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump module overheating",
+        "solution": "Check water cooling and chiller operation.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit and chiller.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Check welding parameters. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean optics. Schedule maintenance.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c1500x-ce",
+    "name": "RFL-C1500X-CE",
+    "series": "Global-CE",
+    "category": "CW Fiber Laser",
+    "powerWatt": 1500,
+    "wavelength": "1080 ± 5 nm",
+    "description": "1500W Single Module CW Fiber Laser Source. High electro-optical conversion efficiency with compact single-module design. CE certified.",
+    "specs": {
+      "outputPower": "1500 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "1.5–2 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "modulationFrequency": "20 kHz",
+      "powerAdjustRange": "10–100%",
+      "fiberCore": "25 μm / 50 μm",
+      "outputConnector": "QBH",
+      "cableLength": "20 m",
+      "inputVoltage": "200–240V AC / 380V ±10%",
+      "controlMode": "RS232, AD",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "humidity": "< 70% (non-condensing)",
+      "dimensions": "410 × 610 × 150 mm",
+      "weight": "< 40 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump module overheating (T1 sensor)",
+        "solution": "Check water cooling system. Verify chiller temperature.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T2H",
+        "description": "Beam combiner overheating (T2 sensor)",
+        "solution": "Check coolant flow rate. Inspect water lines.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T3H",
+        "description": "Output head overheating (T3 sensor)",
+        "solution": "Check output head cooling. Clean output lens.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T1L",
+        "description": "Temperature below minimum",
+        "solution": "Increase chiller setting. Warm environment.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check external interlock wiring.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Check parameters. Inspect protective lens.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure",
+        "solution": "Clean optics and fiber ends. Calibrate.",
+        "severity": "error"
+      },
+      {
+        "code": "E-DRV",
+        "description": "Internal driver error",
+        "solution": "Restart laser. Contact Raycus if persistent.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean optics. Check fiber routing.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature high",
+        "solution": "Check chiller and heat exchanger.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2023-01-15T00:00:00Z"
+  },
+  {
+    "id": "rfl-c020h-ce",
+    "name": "RFL-C020H-CE",
+    "series": "Global-CE",
+    "category": "CW Fiber Laser",
+    "powerWatt": 2000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "2000W Lightweight CW Fiber Laser for Handheld Welding. Compact high-efficiency design for portable welding with superior beam quality. CE certified.",
+    "specs": {
+      "outputPower": "2000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "1–2 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "modulationFrequency": "5 kHz",
+      "powerAdjustRange": "10–100%",
+      "fiberCore": "20 μm",
+      "outputConnector": "QBH",
+      "cableLength": "20 m",
+      "inputVoltage": "380 ± 10% VAC, Three Phase",
+      "controlMode": "RS232, AD, Ethernet",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "humidity": "30–70% (non-condensing)",
+      "electroOpticalEfficiency": "> 40%",
+      "dimensions": "485 × 164 × 736 mm",
+      "weight": "< 40 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump module overheating",
+        "solution": "Check water cooling and chiller.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T2H",
+        "description": "Beam combiner overheating",
+        "solution": "Check coolant flow rate.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T1L",
+        "description": "Temperature below minimum",
+        "solution": "Increase chiller temperature.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Check welding parameters. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure",
+        "solution": "Clean optics. Check fiber. Calibrate.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean optics. Schedule maintenance.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature high",
+        "solution": "Check chiller operation.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-06-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c025h-ce",
+    "name": "RFL-C025H-CE",
+    "series": "Global-CE",
+    "category": "CW Fiber Laser",
+    "powerWatt": 2500,
+    "wavelength": "1080 ± 5 nm",
+    "description": "2500W Lightweight CW Fiber Laser for Handheld Welding. Highest power handheld welding laser in the CE range. CE certified.",
+    "specs": {
+      "outputPower": "2500 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "1.5–2.5 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "fiberCore": "20 μm / 50 μm",
+      "outputConnector": "QBH",
+      "cableLength": "20 m",
+      "inputVoltage": "380 ± 10% VAC, Three Phase",
+      "controlMode": "RS232, AD, Ethernet",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "humidity": "30–70% (non-condensing)",
+      "weight": "< 45 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump module overheating",
+        "solution": "Check water cooling and chiller.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Check parameters. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure",
+        "solution": "Clean optics. Calibrate.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean optics. Schedule service.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-06-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c3000s-ce",
+    "name": "RFL-C3000S-CE",
+    "series": "Global-CE",
+    "category": "CW Fiber Laser",
+    "powerWatt": 3000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "3000W Single Module CW Fiber Laser. High electro-optical conversion efficiency, good beam quality, high energy density for cutting and welding. CE certified.",
+    "specs": {
+      "outputPower": "3000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "1.5–2 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "modulationFrequency": "5 kHz",
+      "powerAdjustRange": "10–100%",
+      "fiberCore": "25 μm / 50 μm",
+      "outputConnector": "QBH",
+      "cableLength": "20 m",
+      "inputVoltage": "200–240V AC / 380V ±10%",
+      "controlMode": "RS232, AD",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "humidity": "< 70% (non-condensing)",
+      "dimensions": "900 × 447 × 250 mm",
+      "weight": "< 80 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump module overheating",
+        "solution": "Check water cooling. Verify chiller.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T2H",
+        "description": "Beam combiner overheating",
+        "solution": "Check coolant flow rate.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T3H",
+        "description": "Output head overheating",
+        "solution": "Check output cooling. Clean optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T4H",
+        "description": "Electronics overheating",
+        "solution": "Improve ventilation. Check ambient temp.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T1L",
+        "description": "Temperature below minimum",
+        "solution": "Increase chiller setting.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock wiring.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Reduce power. Check material.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure",
+        "solution": "Clean optics. Calibrate.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean optics. Schedule service.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature high",
+        "solution": "Check chiller and heat exchanger.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-FLOW",
+        "description": "Water flow rate low",
+        "solution": "Check water pump and cooling lines.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2023-03-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c6000s-ce",
+    "name": "RFL-C6000S-CE",
+    "series": "Global-CE",
+    "category": "CW Fiber Laser",
+    "powerWatt": 6000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "6000W Single Module CW Fiber Laser. Wide modulation frequency, high efficiency for thick plate cutting and heavy welding. CE certified.",
+    "specs": {
+      "outputPower": "6000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "2.7–3.1 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "modulationFrequency": "5 kHz",
+      "powerAdjustRange": "10–100%",
+      "fiberCore": "50–70 μm",
+      "outputConnector": "QBH",
+      "cableLength": "20 m",
+      "inputVoltage": "380 ± 15% VAC, Three Phase",
+      "controlMode": "RS232, AD, Ethernet",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "humidity": "< 70% (non-condensing)",
+      "dimensions": "455 × 802 × 168 mm",
+      "weight": "~ 58 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump module overheating",
+        "solution": "Check water cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T2H",
+        "description": "Beam combiner overheating",
+        "solution": "Check coolant flow.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Reduce power. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure",
+        "solution": "Clean optics. Calibrate.",
+        "severity": "error"
+      },
+      {
+        "code": "E-FIBER",
+        "description": "Fiber optic cable fault",
+        "solution": "Inspect fiber for bends or damage.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean optics. Schedule service.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature high",
+        "solution": "Check chiller.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-FLOW",
+        "description": "Water flow rate low",
+        "solution": "Check pump and cooling lines.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2023-06-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c12000s-ce",
+    "name": "RFL-C12000S-CE",
+    "series": "Global-CE",
+    "category": "CW Fiber Laser",
+    "powerWatt": 12000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "12000W Single Module CW Fiber Laser. Ultra-high power single-module for heavy industrial cutting, welding, and surface treatment. CE certified.",
+    "specs": {
+      "outputPower": "12000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "3.5–5.0 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "modulationFrequency": "5 kHz",
+      "powerAdjustRange": "10–100%",
+      "fiberCore": "100 μm",
+      "outputConnector": "QBH / QD",
+      "cableLength": "20 m",
+      "inputVoltage": "380 ± 10% VAC, Three Phase",
+      "controlMode": "RS232, AD, Ethernet",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "humidity": "< 70% (non-condensing)",
+      "electroOpticalEfficiency": "> 40%",
+      "dimensions": "960 × 730 × 350 mm",
+      "weight": "~ 180 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump module 1 overheating",
+        "solution": "Check water cooling and chiller.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T2H",
+        "description": "Pump module 2 overheating",
+        "solution": "Check coolant flow to second module.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T3H",
+        "description": "Beam combiner overheating",
+        "solution": "Check combiner cooling circuit.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit and chiller.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Reduce power. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure",
+        "solution": "Clean all optics. Run diagnostics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-FIBER",
+        "description": "Fiber cable fault",
+        "solution": "Inspect fiber for damage.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PSU",
+        "description": "Power supply fault",
+        "solution": "Check input voltage (380V ±10%).",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power degradation",
+        "solution": "Clean optics. Schedule maintenance.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature high",
+        "solution": "Check chiller capacity.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-FLOW",
+        "description": "Water flow below spec",
+        "solution": "Check pump operation.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-15T00:00:00Z"
+  },
+  {
+    "id": "rfl-c20000m-ce",
+    "name": "RFL-C20000M-CE",
+    "series": "Global-CE",
+    "category": "CW Fiber Laser",
+    "powerWatt": 20000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "20000W Multi-Module CW Fiber Laser. High beam quality multi-module design with wide modulation frequency for ultra-thick plate cutting. CE certified.",
+    "specs": {
+      "outputPower": "20000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "≤ 4 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "modulationFrequency": "2 kHz",
+      "powerAdjustRange": "10–100%",
+      "fiberCore": "100 μm",
+      "outputConnector": "QP",
+      "cableLength": "30 m",
+      "inputVoltage": "360–510V AC, Three Phase",
+      "controlMode": "Ethernet, DeviceNet, Profinet, Profibus",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "dimensions": "960 × 1530 × 1116 mm",
+      "weight": "< 700 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-MOD1",
+        "description": "Module 1 fault",
+        "solution": "Check module 1 temperature and cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-MOD2",
+        "description": "Module 2 fault",
+        "solution": "Check module 2 temperature and cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-COMB",
+        "description": "Combiner overheating",
+        "solution": "Check combiner cooling circuit.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check all interlock connections.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Reduce power. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure",
+        "solution": "Check all modules. Run diagnostics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PSU",
+        "description": "Power supply fault",
+        "solution": "Check input voltage (360–510V).",
+        "severity": "error"
+      },
+      {
+        "code": "E-COMM",
+        "description": "Communication error between modules",
+        "solution": "Check internal cabling. Restart system.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power degradation",
+        "solution": "Clean optics. Check individual modules.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature high",
+        "solution": "Check chiller capacity for 20kW load.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-06-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c30000m-ce",
+    "name": "RFL-C30000M-CE",
+    "series": "Global-CE",
+    "category": "CW Fiber Laser",
+    "powerWatt": 30000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "30000W Multi-Module CW Fiber Laser. Ultra-high power for heavy industrial cutting and welding of thick steel plate. CE certified.",
+    "specs": {
+      "outputPower": "30000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "≤ 5 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "modulationFrequency": "2 kHz",
+      "fiberCore": "100 μm / 150 μm",
+      "outputConnector": "QP",
+      "cableLength": "30 m",
+      "inputVoltage": "360–510V AC, Three Phase",
+      "controlMode": "Ethernet, DeviceNet, Profinet",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "weight": "~ 900 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-MOD",
+        "description": "Module fault (check module ID)",
+        "solution": "Identify failed module. Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-COMB",
+        "description": "Combiner overheating",
+        "solution": "Check combiner cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check all interlocks.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Reduce power. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PSU",
+        "description": "Power supply fault",
+        "solution": "Check input voltage.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power degradation",
+        "solution": "Check modules. Schedule service.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-06-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c40000m-ce",
+    "name": "RFL-C40000M-CE",
+    "series": "Global-CE",
+    "category": "CW Fiber Laser",
+    "powerWatt": 40000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "40000W Multi-Module CW Fiber Laser. Flagship ultra-high power for the most demanding heavy industrial applications. CE certified.",
+    "specs": {
+      "outputPower": "40000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "≤ 6 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "fiberCore": "150 μm",
+      "outputConnector": "QP",
+      "inputVoltage": "360–510V AC, Three Phase",
+      "controlMode": "Ethernet, Profinet",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "weight": "~ 1100 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-MOD",
+        "description": "Module fault",
+        "solution": "Identify failed module. Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-COMB",
+        "description": "Combiner overheating",
+        "solution": "Check combiner cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check all interlocks.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Reduce power. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power degradation",
+        "solution": "Check modules.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-09-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c60000m-ce",
+    "name": "RFL-C60000M-CE",
+    "series": "Global-CE",
+    "category": "CW Fiber Laser",
+    "powerWatt": 60000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "60000W Multi-Module CW Fiber Laser. Industry-leading 60kW output for the most extreme industrial processing requirements. CE certified.",
+    "specs": {
+      "outputPower": "60000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "≤ 8 mm·mrad (BPP)",
+      "fiberCore": "200 μm",
+      "outputConnector": "QP",
+      "inputVoltage": "360–510V AC, Three Phase",
+      "controlMode": "Ethernet, Profinet",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-MOD",
+        "description": "Module fault",
+        "solution": "Identify failed module.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlocks.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Reduce power.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power degradation",
+        "solution": "Check modules.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2025-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c2000s-hp",
+    "name": "RFL-C2000S-HP",
+    "series": "HP",
+    "category": "HP CW Fiber Laser",
+    "powerWatt": 2000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "2000W HP-Series Single Module CW Fiber Laser. High-performance version with enhanced beam quality and power stability for demanding applications.",
+    "specs": {
+      "outputPower": "2000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "1.5–2 mm·mrad (BPP)",
+      "powerStability": "± 1%",
+      "modulationFrequency": "5 kHz",
+      "fiberCore": "50 μm",
+      "outputConnector": "QBH",
+      "cableLength": "20 m",
+      "inputVoltage": "360–510V AC, Three Phase",
+      "controlMode": "RS232, AD, Ethernet, DeviceNet, Profinet, EtherCAT",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "weight": "< 65 kg",
+      "dimensions": "485 × 172 × 727 mm"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump module overheating",
+        "solution": "Check water cooling and chiller.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Reduce power. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure",
+        "solution": "Clean optics. Calibrate.",
+        "severity": "error"
+      },
+      {
+        "code": "E-DRV",
+        "description": "Driver error",
+        "solution": "Restart. Contact support if persistent.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean optics.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temp high",
+        "solution": "Check chiller.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2023-06-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c3000s-hp",
+    "name": "RFL-C3000S-HP",
+    "series": "HP",
+    "category": "HP CW Fiber Laser",
+    "powerWatt": 3000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "3000W HP-Series Single Module CW Fiber Laser. Premium beam quality for high-precision cutting.",
+    "specs": {
+      "outputPower": "3000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "1.5–2 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "modulationFrequency": "5 kHz",
+      "fiberCore": "50 μm",
+      "outputConnector": "QBH",
+      "inputVoltage": "360–510V AC, Three Phase",
+      "controlMode": "RS232, AD, Ethernet, DeviceNet, Profinet, EtherCAT",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "weight": "< 65 kg",
+      "dimensions": "485 × 172 × 727 mm"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump overheating",
+        "solution": "Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection",
+        "solution": "Reduce power.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure",
+        "solution": "Clean optics. Calibrate.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2023-06-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c4000s-hp",
+    "name": "RFL-C4000S-HP",
+    "series": "HP",
+    "category": "HP CW Fiber Laser",
+    "powerWatt": 4000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "4000W HP-Series Single Module CW Fiber Laser. High power in single module form factor with excellent beam quality.",
+    "specs": {
+      "outputPower": "4000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "1.5–2 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "modulationFrequency": "5 kHz",
+      "fiberCore": "50 μm",
+      "outputConnector": "QBH",
+      "inputVoltage": "360–510V AC, Three Phase",
+      "controlMode": "RS232, AD, Ethernet, DeviceNet, Profinet, EtherCAT",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "dimensions": "448 × 168 × 934 mm",
+      "weight": "< 70 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump overheating",
+        "solution": "Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection",
+        "solution": "Reduce power.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure",
+        "solution": "Clean optics.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2023-06-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c6000s-hp",
+    "name": "RFL-C6000S-HP",
+    "series": "HP",
+    "category": "HP CW Fiber Laser",
+    "powerWatt": 6000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "6000W HP-Series Single Module CW Fiber Laser. Highest single-module power in the HP range.",
+    "specs": {
+      "outputPower": "6000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "≤ 4.5 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "fiberCore": "100 μm",
+      "outputConnector": "HQBH",
+      "inputVoltage": "360–510V AC, Three Phase",
+      "controlMode": "Ethernet, DeviceNet, Profinet, Profibus",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "weight": "< 85 kg",
+      "modulationFrequency": "2 kHz",
+      "dimensions": "448 × 168 × 934 mm"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump overheating",
+        "solution": "Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection",
+        "solution": "Reduce power.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure",
+        "solution": "Clean optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-FIBER",
+        "description": "Fiber fault",
+        "solution": "Inspect fiber.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2023-06-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c8000s-hp",
+    "name": "RFL-C8000S-HP",
+    "series": "HP",
+    "category": "HP CW Fiber Laser",
+    "powerWatt": 8000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "8000W HP-Series Single Module CW Fiber Laser. Ultra-high single-module power for heavy-duty cutting.",
+    "specs": {
+      "outputPower": "8000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "≤ 4 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "fiberCore": "100 μm",
+      "outputConnector": "QBH",
+      "inputVoltage": "360–510V AC, Three Phase",
+      "controlMode": "Ethernet, DeviceNet, Profinet, Profibus",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "modulationFrequency": "2 kHz",
+      "dimensions": "900 × 960 × 1160 mm",
+      "weight": "< 400 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump overheating",
+        "solution": "Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection",
+        "solution": "Reduce power.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure",
+        "solution": "Clean optics.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c12000m-hp",
+    "name": "RFL-C12000M-HP",
+    "series": "HP",
+    "category": "HP CW Fiber Laser",
+    "powerWatt": 12000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "12000W HP-Series Multi-Module CW Fiber Laser. High power with enhanced beam quality.",
+    "specs": {
+      "outputPower": "12000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "≤ 4 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "modulationFrequency": "2 kHz",
+      "fiberCore": "100 μm",
+      "outputConnector": "QD",
+      "inputVoltage": "360–510V AC, Three Phase",
+      "controlMode": "Ethernet, DeviceNet, Profinet, Profibus",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "dimensions": "1200 × 980 × 1160 mm",
+      "weight": "< 500 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-MOD",
+        "description": "Module fault",
+        "solution": "Check failed module.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlocks.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection",
+        "solution": "Reduce power.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Check modules.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c15000m-hp",
+    "name": "RFL-C15000M-HP",
+    "series": "HP",
+    "category": "HP CW Fiber Laser",
+    "powerWatt": 15000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "15000W HP-Series Multi-Module CW Fiber Laser. Premium multi-module for heavy industrial use.",
+    "specs": {
+      "outputPower": "15000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "≤ 4 mm·mrad (BPP)",
+      "modulationFrequency": "2 kHz",
+      "fiberCore": "100 μm",
+      "outputConnector": "QP",
+      "inputVoltage": "360–510V AC, Three Phase",
+      "controlMode": "Ethernet, DeviceNet, Profinet, Profibus",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "powerStability": "± 1.5%",
+      "dimensions": "960 × 1530 × 1116 mm",
+      "weight": "< 700 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-MOD",
+        "description": "Module fault",
+        "solution": "Check failed module.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlocks.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection",
+        "solution": "Reduce power.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Check modules.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c20000m-hp",
+    "name": "RFL-C20000M-HP",
+    "series": "HP",
+    "category": "HP CW Fiber Laser",
+    "powerWatt": 20000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "20000W HP-Series Multi-Module CW Fiber Laser. High electro-optical conversion efficiency with maintenance-free operation.",
+    "specs": {
+      "outputPower": "20000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "≤ 4 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "modulationFrequency": "2 kHz",
+      "fiberCore": "100 μm",
+      "outputConnector": "QP",
+      "cableLength": "30 m",
+      "inputVoltage": "360–510V AC, Three Phase",
+      "controlMode": "Ethernet, DeviceNet, Profinet, Profibus",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "dimensions": "960 × 1530 × 1116 mm",
+      "weight": "< 700 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-MOD",
+        "description": "Module fault",
+        "solution": "Identify failed module. Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-COMB",
+        "description": "Combiner overheating",
+        "solution": "Check combiner cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check all interlocks.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Reduce power.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PSU",
+        "description": "Power supply fault",
+        "solution": "Check input voltage.",
+        "severity": "error"
+      },
+      {
+        "code": "E-COMM",
+        "description": "Module communication error",
+        "solution": "Check cabling. Restart.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power degradation",
+        "solution": "Check modules.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temp high",
+        "solution": "Check chiller.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-06-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c30000m-hp",
+    "name": "RFL-C30000M-HP",
+    "series": "HP",
+    "category": "HP CW Fiber Laser",
+    "powerWatt": 30000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "30000W HP-Series Multi-Module CW Fiber Laser. Premium 30kW for ultra-thick plate processing.",
+    "specs": {
+      "outputPower": "30000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "≤ 4.3 mm·mrad (BPP)",
+      "fiberCore": "150 μm",
+      "outputConnector": "QP",
+      "inputVoltage": "360–510V AC, Three Phase",
+      "controlMode": "Ethernet, DeviceNet, Profinet, Profibus",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "powerStability": "± 1.4%",
+      "modulationFrequency": "5 kHz",
+      "dimensions": "1050 × 1540 × 1290 mm",
+      "weight": "< 900 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-MOD",
+        "description": "Module fault",
+        "solution": "Check failed module.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlocks.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection",
+        "solution": "Reduce power.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Check modules.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-06-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c40000m-hp",
+    "name": "RFL-C40000M-HP",
+    "series": "HP",
+    "category": "HP CW Fiber Laser",
+    "powerWatt": 40000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "40000W HP-Series Multi-Module CW Fiber Laser. Flagship HP model for extreme industrial processing.",
+    "specs": {
+      "outputPower": "40000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "≤ 7 mm·mrad (BPP)",
+      "fiberCore": "150 μm",
+      "outputConnector": "QP",
+      "inputVoltage": "323–437V AC, Three Phase",
+      "controlMode": "AD",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "powerStability": "± 1.4%",
+      "modulationFrequency": "2 kHz",
+      "dimensions": "1590 × 1570 × 1160 mm",
+      "weight": "< 1500 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-MOD",
+        "description": "Module fault",
+        "solution": "Check failed module.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlocks.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection",
+        "solution": "Reduce power.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Check modules.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-09-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-abp-1500-1500",
+    "name": "RFL-ABP1500/1500",
+    "series": "ABP",
+    "category": "ABP Fiber Laser",
+    "powerWatt": 3000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "1500W+1500W ABP Adjustable Beam Profile Fiber Laser. Switch between Gaussian, ring, and mixed beam profiles for optimized cutting and welding.",
+    "specs": {
+      "centerPower": "1500 W",
+      "ringPower": "1500 W",
+      "totalPower": "3000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamProfiles": "Gaussian / Ring / Mixed",
+      "outputConnector": "QBH-ABP",
+      "cooling": "Air Cooled",
+      "operatingTemp": "10–40°C",
+      "centerFiberCore": "50 μm",
+      "ringFiberCore": "100 μm",
+      "beamQuality": "Center ≤ 2.2 / Ring ≤ 4 mm·mrad",
+      "modulationFrequency": "50–5000 Hz"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Center module overheating",
+        "solution": "Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T2H",
+        "description": "Ring module overheating",
+        "solution": "Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlocks.",
+        "severity": "error"
+      },
+      {
+        "code": "E-ABP",
+        "description": "Beam profile switching error",
+        "solution": "Restart system. Check ABP fiber.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-abp-2000-4000",
+    "name": "RFL-ABP2000/4000",
+    "series": "ABP",
+    "category": "ABP Fiber Laser",
+    "powerWatt": 6000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "2000W+4000W ABP Adjustable Beam Profile. Asymmetric center/ring power for versatile processing — thinner materials with center, thicker with ring.",
+    "specs": {
+      "centerPower": "2000 W",
+      "ringPower": "4000 W",
+      "totalPower": "6000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamProfiles": "Gaussian / Ring / Mixed",
+      "outputConnector": "QBH-ABP",
+      "cooling": "Air Cooled",
+      "operatingTemp": "10–40°C",
+      "centerFiberCore": "50 μm",
+      "ringFiberCore": "100 μm",
+      "beamQuality": "Center ≤ 2.2 / Ring ≤ 4 mm·mrad",
+      "modulationFrequency": "50–5000 Hz"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Center module overheating",
+        "solution": "Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T2H",
+        "description": "Ring module overheating",
+        "solution": "Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlocks.",
+        "severity": "error"
+      },
+      {
+        "code": "E-ABP",
+        "description": "Beam profile error",
+        "solution": "Restart. Check ABP fiber.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-abp-4000-6000",
+    "name": "RFL-ABP4000/6000",
+    "series": "ABP",
+    "category": "ABP Fiber Laser",
+    "powerWatt": 10000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "4000W+6000W ABP Adjustable Beam Profile. 10kW total with switchable beam modes for maximum process flexibility.",
+    "specs": {
+      "centerPower": "4000 W",
+      "ringPower": "6000 W",
+      "totalPower": "10000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamProfiles": "Gaussian / Ring / Mixed",
+      "outputConnector": "IHQB",
+      "cooling": "Air Cooled",
+      "operatingTemp": "10–40°C",
+      "centerFiberCore": "100 μm",
+      "ringFiberCore": "100 μm",
+      "beamQuality": "Center ≤ 4 / Ring ≤ 4 mm·mrad",
+      "modulationFrequency": "50–2000 Hz"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Center module overheating",
+        "solution": "Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T2H",
+        "description": "Ring module overheating",
+        "solution": "Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlocks.",
+        "severity": "error"
+      },
+      {
+        "code": "E-ABP",
+        "description": "Beam profile error",
+        "solution": "Restart. Check ABP fiber.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-06-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-abp-6000-6000",
+    "name": "RFL-ABP6000/6000",
+    "series": "ABP",
+    "category": "ABP Fiber Laser",
+    "powerWatt": 12000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "6000W+6000W ABP Adjustable Beam Profile. 12kW total — highest power ABP model for heavy-duty processing with beam shaping.",
+    "specs": {
+      "centerPower": "6000 W",
+      "ringPower": "6000 W",
+      "totalPower": "12000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamProfiles": "Gaussian / Ring / Mixed",
+      "outputConnector": "QBH-ABP",
+      "cooling": "Air Cooled",
+      "operatingTemp": "10–40°C",
+      "centerFiberCore": "100 μm",
+      "ringFiberCore": "100 μm",
+      "beamQuality": "Center ≤ 4 / Ring ≤ 4 mm·mrad",
+      "modulationFrequency": "50–2000 Hz"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Center module overheating",
+        "solution": "Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T2H",
+        "description": "Ring module overheating",
+        "solution": "Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlocks.",
+        "severity": "error"
+      },
+      {
+        "code": "E-ABP",
+        "description": "Beam profile error",
+        "solution": "Restart. Check ABP fiber.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-06-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c500a",
+    "name": "RFL-C500AM",
+    "series": "3D-Printing",
+    "category": "3D Printing Fiber Laser",
+    "powerWatt": 500,
+    "wavelength": "1080 ± 3 nm",
+    "description": "500W Single-Mode CW Fiber Laser for 3D Printing / Additive Manufacturing. Optimized for SLM/SLS powder bed fusion with excellent beam quality.",
+    "specs": {
+      "outputPower": "500 W",
+      "centralWavelength": "1080 ± 3 nm",
+      "beamQuality": "M² < 1.1",
+      "powerStability": "± 1%",
+      "modulationFrequency": "50 kHz",
+      "fiberCore": "14 μm (single-mode)",
+      "outputConnector": "QBH / Collimated",
+      "cooling": "Water Cooled",
+      "operatingTemp": "15–35°C"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump overheating",
+        "solution": "Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure",
+        "solution": "Clean optics.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2023-06-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c1000a",
+    "name": "RFL-C1000AM",
+    "series": "3D-Printing",
+    "category": "3D Printing Fiber Laser",
+    "powerWatt": 1000,
+    "wavelength": "1080 ± 3 nm",
+    "description": "1000W Single-Mode CW Fiber Laser for 3D Printing. High power single-mode for large-format additive manufacturing.",
+    "specs": {
+      "outputPower": "1000 W",
+      "centralWavelength": "1080 ± 3 nm",
+      "beamQuality": "M² < 1.1",
+      "powerStability": "± 1%",
+      "modulationFrequency": "50 kHz",
+      "fiberCore": "14 μm (single-mode)",
+      "outputConnector": "QBH / Collimated",
+      "cooling": "Water Cooled",
+      "operatingTemp": "15–35°C"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump overheating",
+        "solution": "Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure",
+        "solution": "Clean optics.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-d1000",
+    "name": "RFL-A1000D",
+    "series": "Direct-Diode",
+    "category": "Direct Diode Laser",
+    "powerWatt": 1000,
+    "wavelength": "915 ± 10 nm",
+    "description": "1000W Fiber Delivered Direct Diode Laser. Broad wavelength for heat treatment, cladding, soldering, and plastic welding.",
+    "specs": {
+      "outputPower": "1000 W",
+      "centralWavelength": "915 ± 10 nm",
+      "fiberCore": "200 μm / 400 μm",
+      "outputConnector": "QBH",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-DIODE",
+        "description": "Diode module fault",
+        "solution": "Check diode module. Contact service.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-d6000",
+    "name": "RFL-A6000D",
+    "series": "Direct-Diode",
+    "category": "Direct Diode Laser",
+    "powerWatt": 6000,
+    "wavelength": "915 ± 10 nm",
+    "description": "6000W Fiber Delivered Direct Diode Laser. High-power diode for industrial heat treatment, hardening, and cladding.",
+    "specs": {
+      "outputPower": "6000 W",
+      "centralWavelength": "915 ± 10 nm",
+      "fiberCore": "600 μm",
+      "outputConnector": "HQBH",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-DIODE",
+        "description": "Diode module fault",
+        "solution": "Check diode module.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-06-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-qcw150",
+    "name": "RFL-QCW150/1500",
+    "series": "QCW150",
+    "category": "QCW Fiber Laser",
+    "powerWatt": 150,
+    "wavelength": "1080 ± 5 nm",
+    "description": "150W/1500W peak QCW Fiber Laser. Air-cooled with excellent beam quality for precision spot welding and drilling.",
+    "specs": {
+      "averagePower": "150 W (pulsed) / 250 W (CW)",
+      "peakPower": "1500 W",
+      "pulseEnergy": "15 J max",
+      "centralWavelength": "1080 ± 5 nm",
+      "pulseWidth": "0.05–50 ms",
+      "repetitionRate": "0–5000 Hz",
+      "beamQuality": "< 1.2 mm·mrad (BPP)",
+      "fiberCore": "50 μm (12, 25 optional)",
+      "outputConnector": "QBH",
+      "cableLength": "customizable",
+      "inputVoltage": "48V DC",
+      "controlMode": "RS232, AD, Ethernet",
+      "cooling": "Air Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "± 1.5%",
+      "dimensions": "420 × 190 × 485 mm",
+      "weight": "< 40 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump module overheating",
+        "solution": "Check water/air cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit and chiller.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Check welding parameters. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure — output cannot reach set value",
+        "solution": "Clean optics. Check fiber. Calibrate.",
+        "severity": "error"
+      },
+      {
+        "code": "E-DRV",
+        "description": "Internal driver error",
+        "solution": "Restart laser. Contact Raycus if persistent.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power output below threshold",
+        "solution": "Clean optics. Check fiber end faces.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature approaching limit",
+        "solution": "Check cooling system capacity.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-qcw300",
+    "name": "RFL-QCW300/3000",
+    "series": "QCW300",
+    "category": "QCW Fiber Laser",
+    "powerWatt": 300,
+    "wavelength": "1080 ± 5 nm",
+    "description": "300W/3000W peak QCW Fiber Laser. Air-cooled for welding and drilling applications.",
+    "specs": {
+      "averagePower": "300 W (pulsed) / 500 W (CW)",
+      "peakPower": "3000 W",
+      "pulseEnergy": "30 J max",
+      "centralWavelength": "1080 ± 5 nm",
+      "pulseWidth": "0.05–50 ms",
+      "repetitionRate": "0–5000 Hz",
+      "beamQuality": "< 2.5 mm·mrad (BPP)",
+      "fiberCore": "50 μm (25, 100, 200 optional)",
+      "outputConnector": "QBH",
+      "inputVoltage": "48V DC",
+      "controlMode": "RS232, AD, Ethernet",
+      "cooling": "Air Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "± 1.5%",
+      "dimensions": "570 × 234 × 565 mm",
+      "weight": "< 60 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump module overheating",
+        "solution": "Check water/air cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit and chiller.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Check welding parameters. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure — output cannot reach set value",
+        "solution": "Clean optics. Check fiber. Calibrate.",
+        "severity": "error"
+      },
+      {
+        "code": "E-DRV",
+        "description": "Internal driver error",
+        "solution": "Restart laser. Contact Raycus if persistent.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power output below threshold",
+        "solution": "Clean optics. Check fiber end faces.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature approaching limit",
+        "solution": "Check cooling system capacity.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-qcw450",
+    "name": "RFL-QCW450/4500",
+    "series": "QCW450",
+    "category": "QCW Fiber Laser",
+    "powerWatt": 450,
+    "wavelength": "1080 ± 5 nm",
+    "description": "450W/4500W peak QCW Fiber Laser. Air-cooled mid-range for welding and drilling.",
+    "specs": {
+      "averagePower": "450 W (pulsed) / 750 W (CW)",
+      "peakPower": "4500 W",
+      "pulseEnergy": "15 J max",
+      "centralWavelength": "1080 ± 5 nm",
+      "pulseWidth": "0.05–50 ms",
+      "repetitionRate": "0–5000 Hz",
+      "beamQuality": "< 2.5 mm·mrad (BPP)",
+      "fiberCore": "50 μm (100, 200 optional)",
+      "outputConnector": "QBH",
+      "inputVoltage": "48V DC",
+      "controlMode": "RS232, AD, Ethernet",
+      "cooling": "Air Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "± 1.5%",
+      "dimensions": "570 × 234 × 565 mm",
+      "weight": "< 70 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump module overheating",
+        "solution": "Check water/air cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit and chiller.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Check welding parameters. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure — output cannot reach set value",
+        "solution": "Clean optics. Check fiber. Calibrate.",
+        "severity": "error"
+      },
+      {
+        "code": "E-DRV",
+        "description": "Internal driver error",
+        "solution": "Restart laser. Contact Raycus if persistent.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power output below threshold",
+        "solution": "Clean optics. Check fiber end faces.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature approaching limit",
+        "solution": "Check cooling system capacity.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-qcw600",
+    "name": "RFL-QCW600/6000",
+    "series": "QCW600",
+    "category": "QCW Fiber Laser",
+    "powerWatt": 600,
+    "wavelength": "1080 ± 5 nm",
+    "description": "600W/6000W peak QCW Fiber Laser. Water-cooled high-energy for deep penetration welding.",
+    "specs": {
+      "averagePower": "600 W (pulsed) / 800 W (CW)",
+      "peakPower": "6000 W",
+      "pulseEnergy": "60 J max",
+      "centralWavelength": "1080 ± 5 nm",
+      "pulseWidth": "0.05–50 ms",
+      "repetitionRate": "0–5000 Hz",
+      "beamQuality": "< 4 mm·mrad (BPP)",
+      "fiberCore": "50 μm (100, 200 optional)",
+      "outputConnector": "IQB",
+      "inputVoltage": "380 ± 15% VAC",
+      "controlMode": "RS232, AD, Ethernet",
+      "cooling": "Water Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "± 1.5%",
+      "dimensions": "900 × 960 × 1160 mm",
+      "weight": "< 360 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump module overheating",
+        "solution": "Check water/air cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit and chiller.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Check welding parameters. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure — output cannot reach set value",
+        "solution": "Clean optics. Check fiber. Calibrate.",
+        "severity": "error"
+      },
+      {
+        "code": "E-DRV",
+        "description": "Internal driver error",
+        "solution": "Restart laser. Contact Raycus if persistent.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power output below threshold",
+        "solution": "Clean optics. Check fiber end faces.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature approaching limit",
+        "solution": "Check cooling system capacity.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-qcw1000",
+    "name": "RFL-QCW1000/3000",
+    "series": "QCW1000",
+    "category": "QCW Fiber Laser",
+    "powerWatt": 1000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "1000W/3000W peak QCW Fiber Laser. Compact water-cooled for industrial welding.",
+    "specs": {
+      "averagePower": "1000 W (CW & pulsed)",
+      "peakPower": "3000 W",
+      "pulseEnergy": "30 J max",
+      "centralWavelength": "1080 ± 5 nm",
+      "pulseWidth": "0.05–50 ms",
+      "repetitionRate": "0–5000 Hz",
+      "beamQuality": "< 2.5 mm·mrad (BPP)",
+      "fiberCore": "50 μm (25, 100, 200 optional)",
+      "outputConnector": "IQB",
+      "inputVoltage": "380 ± 10% VAC",
+      "controlMode": "RS232, AD, Ethernet",
+      "cooling": "Water Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "± 1.5%",
+      "dimensions": "450 × 234 × 913 mm",
+      "weight": "< 70 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump module overheating",
+        "solution": "Check water/air cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit and chiller.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Check welding parameters. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure — output cannot reach set value",
+        "solution": "Clean optics. Check fiber. Calibrate.",
+        "severity": "error"
+      },
+      {
+        "code": "E-DRV",
+        "description": "Internal driver error",
+        "solution": "Restart laser. Contact Raycus if persistent.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power output below threshold",
+        "solution": "Clean optics. Check fiber end faces.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature approaching limit",
+        "solution": "Check cooling system capacity.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-qcw1500",
+    "name": "RFL-QCW1500/15000",
+    "series": "QCW1500",
+    "category": "QCW Fiber Laser",
+    "powerWatt": 1500,
+    "wavelength": "1080 ± 5 nm",
+    "description": "1500W/15000W peak QCW Fiber Laser. Ultra-high peak power for heavy welding and drilling.",
+    "specs": {
+      "averagePower": "1500 W",
+      "peakPower": "15000 W",
+      "pulseEnergy": "150 J max",
+      "centralWavelength": "1080 ± 5 nm",
+      "pulseWidth": "0.05–50 ms",
+      "repetitionRate": "0–5000 Hz",
+      "beamQuality": "< 4 mm·mrad (BPP)",
+      "fiberCore": "100 μm (200, 400 optional)",
+      "outputConnector": "IQB",
+      "inputVoltage": "380 ± 15% VAC",
+      "controlMode": "RS232, AD, Ethernet",
+      "cooling": "Water Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "± 1.5%",
+      "dimensions": "959 × 1468 × 1160 mm",
+      "weight": "< 500 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump module overheating",
+        "solution": "Check water/air cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit and chiller.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Check welding parameters. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure — output cannot reach set value",
+        "solution": "Clean optics. Check fiber. Calibrate.",
+        "severity": "error"
+      },
+      {
+        "code": "E-DRV",
+        "description": "Internal driver error",
+        "solution": "Restart laser. Contact Raycus if persistent.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power output below threshold",
+        "solution": "Clean optics. Check fiber end faces.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature approaching limit",
+        "solution": "Check cooling system capacity.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-qcw2000",
+    "name": "RFL-QCW2000/6000",
+    "series": "QCW2000",
+    "category": "QCW Fiber Laser",
+    "powerWatt": 2000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "2000W/6000W peak QCW Fiber Laser. Highest average power QCW for demanding applications.",
+    "specs": {
+      "averagePower": "2000 W",
+      "peakPower": "6000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "pulseWidth": "0.05–50 ms",
+      "repetitionRate": "0–5000 Hz",
+      "beamQuality": "< 4 mm·mrad (BPP)",
+      "fiberCore": "100 μm",
+      "outputConnector": "IQB",
+      "cooling": "Water Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "± 1.5%"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump module overheating",
+        "solution": "Check water/air cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit and chiller.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Check welding parameters. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PWR",
+        "description": "Power failure — output cannot reach set value",
+        "solution": "Clean optics. Check fiber. Calibrate.",
+        "severity": "error"
+      },
+      {
+        "code": "E-DRV",
+        "description": "Internal driver error",
+        "solution": "Restart laser. Contact Raycus if persistent.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power output below threshold",
+        "solution": "Clean optics. Check fiber end faces.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature approaching limit",
+        "solution": "Check cooling system capacity.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p20mx",
+    "name": "RFL-P20MX",
+    "series": "P20MX",
+    "category": "MOPA Fiber Laser",
+    "powerWatt": 20,
+    "wavelength": "1064 nm",
+    "description": "20W MOPA Fiber Laser. Tunable pulse width for color marking on stainless steel, black marking on alumina.",
+    "specs": {
+      "averagePower": "20 W",
+      "peakPower": "≤ 15 kW",
+      "centralWavelength": "1064 nm",
+      "pulseWidth": "2–500 ns (tunable)",
+      "repetitionRate": "1–2000 kHz",
+      "pulseEnergy": "1 mJ max",
+      "beamQuality": "M² < 1.5",
+      "beamDiameter": "7 ± 1 mm",
+      "inputVoltage": "24V DC",
+      "powerConsumption": "150 W",
+      "cooling": "Air Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "< 3%",
+      "dimensions": "215 × 95 × 286 mm",
+      "cableLength": "2 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system. Contact service if persistent.",
+        "severity": "error"
+      },
+      {
+        "code": "E-AMP",
+        "description": "Amplifier fault",
+        "solution": "Check fiber connections. Restart.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling fans. Reduce ambient temp.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock connections.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean output window. Check alignment.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-PULSE",
+        "description": "Pulse instability detected",
+        "solution": "Check trigger signal. Verify rep rate settings.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p30mx",
+    "name": "RFL-P30MX",
+    "series": "P30MX",
+    "category": "MOPA Fiber Laser",
+    "powerWatt": 30,
+    "wavelength": "1064 nm",
+    "description": "30W MOPA Fiber Laser. Compact air-cooled for marking and fine engraving.",
+    "specs": {
+      "averagePower": "30 W",
+      "peakPower": "≤ 15 kW",
+      "centralWavelength": "1064 nm",
+      "pulseWidth": "2–500 ns (tunable)",
+      "repetitionRate": "1–2000 kHz",
+      "pulseEnergy": "1 mJ max",
+      "beamQuality": "M² < 1.5",
+      "beamDiameter": "7 ± 1 mm",
+      "inputVoltage": "24V DC",
+      "cooling": "Air Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "< 3%",
+      "dimensions": "215 × 95 × 286 mm",
+      "cableLength": "3 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system. Contact service if persistent.",
+        "severity": "error"
+      },
+      {
+        "code": "E-AMP",
+        "description": "Amplifier fault",
+        "solution": "Check fiber connections. Restart.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling fans. Reduce ambient temp.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock connections.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean output window. Check alignment.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-PULSE",
+        "description": "Pulse instability detected",
+        "solution": "Check trigger signal. Verify rep rate settings.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p60mx",
+    "name": "RFL-P60MX",
+    "series": "P60MX",
+    "category": "MOPA Fiber Laser",
+    "powerWatt": 60,
+    "wavelength": "1064 nm",
+    "description": "60W MOPA Fiber Laser. High power for deep engraving, color marking, oxide removal.",
+    "specs": {
+      "averagePower": "60 W",
+      "peakPower": "≤ 15 kW",
+      "centralWavelength": "1064 nm",
+      "pulseWidth": "10–350 ns (tunable)",
+      "repetitionRate": "1–2000 kHz",
+      "pulseEnergy": "1.5 mJ max",
+      "beamQuality": "M² < 1.5",
+      "beamDiameter": "7 ± 1 mm",
+      "inputVoltage": "24V DC",
+      "powerConsumption": "350 W",
+      "cooling": "Air Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "< 3%",
+      "dimensions": "350 × 320 × 120 mm",
+      "cableLength": "3 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system. Contact service if persistent.",
+        "severity": "error"
+      },
+      {
+        "code": "E-AMP",
+        "description": "Amplifier fault",
+        "solution": "Check fiber connections. Restart.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling fans. Reduce ambient temp.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock connections.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean output window. Check alignment.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-PULSE",
+        "description": "Pulse instability detected",
+        "solution": "Check trigger signal. Verify rep rate settings.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p70mx",
+    "name": "RFL-P70MX",
+    "series": "P70MX",
+    "category": "MOPA Fiber Laser",
+    "powerWatt": 70,
+    "wavelength": "1064 nm",
+    "description": "70W MOPA Fiber Laser. Versatile for marking, engraving, and surface texturing.",
+    "specs": {
+      "averagePower": "70 W",
+      "peakPower": "≤ 15 kW",
+      "centralWavelength": "1064 nm",
+      "pulseWidth": "10–350 ns (tunable)",
+      "repetitionRate": "1–2000 kHz",
+      "pulseEnergy": "1.5 mJ max",
+      "beamQuality": "M² < 1.5",
+      "beamDiameter": "7 ± 1 mm",
+      "inputVoltage": "24V DC",
+      "cooling": "Air Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "< 3%",
+      "dimensions": "350 × 320 × 120 mm",
+      "cableLength": "3 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system. Contact service if persistent.",
+        "severity": "error"
+      },
+      {
+        "code": "E-AMP",
+        "description": "Amplifier fault",
+        "solution": "Check fiber connections. Restart.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling fans. Reduce ambient temp.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock connections.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean output window. Check alignment.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-PULSE",
+        "description": "Pulse instability detected",
+        "solution": "Check trigger signal. Verify rep rate settings.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p100mx",
+    "name": "RFL-P100MX",
+    "series": "P100MX",
+    "category": "MOPA Fiber Laser",
+    "powerWatt": 100,
+    "wavelength": "1064 nm",
+    "description": "100W MOPA Fiber Laser. Industrial-grade for high-speed marking and thin metal cutting.",
+    "specs": {
+      "averagePower": "100 W",
+      "peakPower": "≤ 15 kW",
+      "centralWavelength": "1064 nm",
+      "pulseWidth": "10–350 ns (tunable)",
+      "repetitionRate": "20–1000 kHz",
+      "pulseEnergy": "1.5 mJ max",
+      "beamQuality": "M² < 1.6",
+      "beamDiameter": "6.5 ± 1 mm",
+      "inputVoltage": "24V DC",
+      "powerConsumption": "450 W",
+      "cooling": "Air Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "< 5%",
+      "dimensions": "350 × 320 × 120 mm",
+      "cableLength": "3 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system. Contact service if persistent.",
+        "severity": "error"
+      },
+      {
+        "code": "E-AMP",
+        "description": "Amplifier fault",
+        "solution": "Check fiber connections. Restart.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling fans. Reduce ambient temp.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock connections.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean output window. Check alignment.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-PULSE",
+        "description": "Pulse instability detected",
+        "solution": "Check trigger signal. Verify rep rate settings.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p120mx",
+    "name": "RFL-P120MX",
+    "series": "P120MX",
+    "category": "MOPA Fiber Laser",
+    "powerWatt": 120,
+    "wavelength": "1064 nm",
+    "description": "120W MOPA Fiber Laser. High power air-cooled for demanding marking applications.",
+    "specs": {
+      "averagePower": "120 W",
+      "peakPower": "≤ 15 kW",
+      "centralWavelength": "1064 nm",
+      "pulseWidth": "10–350 ns (tunable)",
+      "repetitionRate": "1–2000 kHz",
+      "pulseEnergy": "1.5 mJ max",
+      "beamQuality": "M² < 1.5",
+      "beamDiameter": "7 ± 1 mm",
+      "inputVoltage": "24V DC",
+      "cooling": "Air Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "< 3%",
+      "dimensions": "350 × 320 × 120 mm",
+      "cableLength": "3 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system. Contact service if persistent.",
+        "severity": "error"
+      },
+      {
+        "code": "E-AMP",
+        "description": "Amplifier fault",
+        "solution": "Check fiber connections. Restart.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling fans. Reduce ambient temp.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock connections.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean output window. Check alignment.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-PULSE",
+        "description": "Pulse instability detected",
+        "solution": "Check trigger signal. Verify rep rate settings.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p200mx",
+    "name": "RFL-P200MX",
+    "series": "P200MX",
+    "category": "MOPA Fiber Laser",
+    "powerWatt": 200,
+    "wavelength": "1064 nm",
+    "description": "200W MOPA Fiber Laser. Ultra-high power for industrial processing and cleaning.",
+    "specs": {
+      "averagePower": "200 W",
+      "peakPower": "≤ 15 kW",
+      "centralWavelength": "1064 nm",
+      "pulseWidth": "10–350 ns (tunable)",
+      "repetitionRate": "20–2000 kHz",
+      "pulseEnergy": "1.5 mJ max",
+      "beamQuality": "M² < 1.8",
+      "beamDiameter": "5.5–8 mm",
+      "inputVoltage": "24V DC",
+      "cooling": "Air Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "< 5%",
+      "dimensions": "460 × 395 × 130 mm",
+      "cableLength": "3 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system. Contact service if persistent.",
+        "severity": "error"
+      },
+      {
+        "code": "E-AMP",
+        "description": "Amplifier fault",
+        "solution": "Check fiber connections. Restart.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling fans. Reduce ambient temp.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock connections.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean output window. Check alignment.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-PULSE",
+        "description": "Pulse instability detected",
+        "solution": "Check trigger signal. Verify rep rate settings.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p250mx",
+    "name": "RFL-P250MX",
+    "series": "P250MX",
+    "category": "MOPA Fiber Laser",
+    "powerWatt": 250,
+    "wavelength": "1064 nm",
+    "description": "250W MOPA Fiber Laser. Highest power MOPA in the Raycus lineup.",
+    "specs": {
+      "averagePower": "250 W",
+      "peakPower": "≤ 15 kW",
+      "centralWavelength": "1064 nm",
+      "pulseWidth": "10–350 ns (tunable)",
+      "repetitionRate": "1–4000 kHz",
+      "beamQuality": "M² < 1.6",
+      "beamDiameter": "6–8 mm",
+      "inputVoltage": "48V DC",
+      "cooling": "Air Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "< 5%",
+      "dimensions": "460 × 395 × 131 mm",
+      "cableLength": "3.5 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system. Contact service if persistent.",
+        "severity": "error"
+      },
+      {
+        "code": "E-AMP",
+        "description": "Amplifier fault",
+        "solution": "Check fiber connections. Restart.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling fans. Reduce ambient temp.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock connections.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean output window. Check alignment.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-PULSE",
+        "description": "Pulse instability detected",
+        "solution": "Check trigger signal. Verify rep rate settings.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p20q",
+    "name": "RFL-P20QE",
+    "series": "P20Q",
+    "category": "Q-Switched Fiber Laser",
+    "powerWatt": 20,
+    "wavelength": "1064 nm",
+    "description": "20W Q-Switched Fiber Laser. Compact entry-level for marking and engraving on metals and plastics.",
+    "specs": {
+      "averagePower": "20 W",
+      "centralWavelength": "1064 nm",
+      "pulseWidth": "90–130 ns",
+      "repetitionRate": "20–60 kHz",
+      "pulseEnergy": "1 mJ max",
+      "beamQuality": "M² < 1.5",
+      "beamDiameter": "7 ± 1 mm",
+      "inputVoltage": "24V DC",
+      "powerConsumption": "170 W",
+      "cooling": "Air Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "< 3%",
+      "dimensions": "290 × 225 × 95 mm",
+      "cableLength": "2 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling fans. Reduce ambient temp.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean output window.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-PULSE",
+        "description": "Pulse instability",
+        "solution": "Check trigger signal.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p30q",
+    "name": "RFL-P30QS",
+    "series": "P30Q",
+    "category": "Q-Switched Fiber Laser",
+    "powerWatt": 30,
+    "wavelength": "1064 nm",
+    "description": "30W Q-Switched Fiber Laser. Industry standard for marking and engraving.",
+    "specs": {
+      "averagePower": "30 W",
+      "centralWavelength": "1064 nm",
+      "pulseWidth": "90–130 ns",
+      "repetitionRate": "30–60 kHz",
+      "pulseEnergy": "1 mJ max",
+      "beamQuality": "M² < 1.5",
+      "beamDiameter": "7 ± 1 mm",
+      "inputVoltage": "24V DC",
+      "powerConsumption": "240 W",
+      "cooling": "Air Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "< 3%",
+      "cableLength": "2 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling fans. Reduce ambient temp.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean output window.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-PULSE",
+        "description": "Pulse instability",
+        "solution": "Check trigger signal.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p50q",
+    "name": "RFL-P50QB",
+    "series": "P50Q",
+    "category": "Q-Switched Fiber Laser",
+    "powerWatt": 50,
+    "wavelength": "1064 nm",
+    "description": "50W Q-Switched Fiber Laser. High power for deep engraving and high-speed marking.",
+    "specs": {
+      "averagePower": "50 W",
+      "centralWavelength": "1064 nm",
+      "pulseWidth": "90–150 ns",
+      "repetitionRate": "50–100 kHz",
+      "pulseEnergy": "1 mJ max",
+      "beamQuality": "M² < 1.8",
+      "beamDiameter": "6.5 ± 1 mm",
+      "inputVoltage": "24V DC",
+      "powerConsumption": "340 W",
+      "cooling": "Air Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "< 5%",
+      "cableLength": "2 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling fans. Reduce ambient temp.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean output window.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-PULSE",
+        "description": "Pulse instability",
+        "solution": "Check trigger signal.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p60q",
+    "name": "RFL-P60QB",
+    "series": "P60Q",
+    "category": "Q-Switched Fiber Laser",
+    "powerWatt": 60,
+    "wavelength": "1064 nm",
+    "description": "60W Q-Switched Fiber Laser. Mid-range for versatile marking applications.",
+    "specs": {
+      "averagePower": "60 W",
+      "centralWavelength": "1064 nm",
+      "pulseWidth": "120–150 ns",
+      "repetitionRate": "55–100 kHz",
+      "pulseEnergy": "1.09 mJ max",
+      "beamQuality": "M² < 1.6",
+      "beamDiameter": "7 ± 1 mm",
+      "inputVoltage": "24V DC",
+      "cooling": "Air Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "< 3%",
+      "dimensions": "340 × 116 × 260 mm",
+      "cableLength": "3 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling fans. Reduce ambient temp.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean output window.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-PULSE",
+        "description": "Pulse instability",
+        "solution": "Check trigger signal.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p70q",
+    "name": "RFL-P70QA",
+    "series": "P70Q",
+    "category": "Q-Switched Fiber Laser",
+    "powerWatt": 70,
+    "wavelength": "1064 nm",
+    "description": "70W Q-Switched Fiber Laser. High power for demanding engraving tasks.",
+    "specs": {
+      "averagePower": "70 W",
+      "centralWavelength": "1064 nm",
+      "pulseWidth": "200–240 ns",
+      "repetitionRate": "60–100 kHz",
+      "pulseEnergy": "1 mJ max",
+      "beamQuality": "M² < 1.6",
+      "beamDiameter": "6 ± 1 mm",
+      "inputVoltage": "24V DC",
+      "cooling": "Air Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "< 5%",
+      "dimensions": "310 × 95 × 260 mm",
+      "cableLength": "3 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling fans. Reduce ambient temp.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean output window.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-PULSE",
+        "description": "Pulse instability",
+        "solution": "Check trigger signal.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p100q",
+    "name": "RFL-P100QB",
+    "series": "P100Q",
+    "category": "Q-Switched Fiber Laser",
+    "powerWatt": 100,
+    "wavelength": "1064 nm",
+    "description": "100W Q-Switched Fiber Laser. Highest power Q-switch for industrial deep engraving.",
+    "specs": {
+      "averagePower": "100 W",
+      "centralWavelength": "1064 nm",
+      "pulseWidth": "50–130 ns",
+      "repetitionRate": "20–200 kHz",
+      "pulseEnergy": "1 mJ max",
+      "beamQuality": "M² < 1.8",
+      "beamDiameter": "6.5 ± 1 mm",
+      "inputVoltage": "24V DC",
+      "powerConsumption": "450 W",
+      "cooling": "Air Cooled",
+      "operatingTemp": "0–40°C",
+      "powerStability": "< 5%",
+      "dimensions": "360 × 396 × 123 mm",
+      "cableLength": "2 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling fans. Reduce ambient temp.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean output window.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-PULSE",
+        "description": "Pulse instability",
+        "solution": "Check trigger signal.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p200",
+    "name": "RFL-P200",
+    "series": "P200",
+    "category": "Pulsed Fiber Laser",
+    "powerWatt": 200,
+    "wavelength": "1064 ± 5 nm",
+    "description": "200W High-Power Pulsed Fiber Laser. For laser cleaning, marking, and material processing.",
+    "specs": {
+      "averagePower": "200 W @ 20–50 kHz",
+      "centralWavelength": "1064 ± 5 nm",
+      "pulseWidth": "90–130 ns",
+      "repetitionRate": "10–50 kHz",
+      "pulseEnergy": "10 mJ @ 20 kHz",
+      "polarization": "Random",
+      "beamSpot": "3–5 mm",
+      "inputVoltage": "220V AC, 50/60 Hz",
+      "powerConsumption": "1000 W",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "powerStability": "± 5%",
+      "dimensions": "485 × 237 × 764 mm",
+      "cableLength": "5 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-AMP",
+        "description": "Amplifier module fault",
+        "solution": "Check fiber and amplifier module.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check water chiller operation.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PSU",
+        "description": "Power supply fault",
+        "solution": "Check input voltage.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean optics. Schedule service.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature high",
+        "solution": "Check chiller capacity.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p300",
+    "name": "RFL-P300",
+    "series": "P300",
+    "category": "Pulsed Fiber Laser",
+    "powerWatt": 300,
+    "wavelength": "1064 ± 5 nm",
+    "description": "300W High-Power Pulsed Fiber Laser. For industrial cleaning and surface preparation.",
+    "specs": {
+      "averagePower": "300 W @ 20–50 kHz",
+      "centralWavelength": "1064 ± 5 nm",
+      "pulseWidth": "120–160 ns",
+      "repetitionRate": "20–50 kHz",
+      "pulseEnergy": "12.5 mJ @ 20 kHz",
+      "polarization": "Random",
+      "beamSpot": "3–5 mm",
+      "inputVoltage": "220V AC, 50/60 Hz",
+      "powerConsumption": "1800 W",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "powerStability": "± 5%",
+      "dimensions": "485 × 237 × 764 mm",
+      "cableLength": "5 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-AMP",
+        "description": "Amplifier module fault",
+        "solution": "Check fiber and amplifier module.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check water chiller operation.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PSU",
+        "description": "Power supply fault",
+        "solution": "Check input voltage.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean optics. Schedule service.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature high",
+        "solution": "Check chiller capacity.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p500",
+    "name": "RFL-P500",
+    "series": "P500",
+    "category": "Pulsed Fiber Laser",
+    "powerWatt": 500,
+    "wavelength": "1064 ± 5 nm",
+    "description": "500W High-Power Pulsed Fiber Laser. Heavy-duty cleaning, rust/paint removal, surface prep.",
+    "specs": {
+      "averagePower": "500 W @ 20–50 kHz",
+      "centralWavelength": "1064 ± 5 nm",
+      "pulseWidth": "90–160 ns",
+      "repetitionRate": "10–50 kHz",
+      "pulseEnergy": "25 mJ @ 20 kHz",
+      "polarization": "Random",
+      "fiberCore": "200 μm",
+      "inputVoltage": "220V AC, 50/60 Hz",
+      "powerConsumption": "2500 W",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "powerStability": "± 5%",
+      "dimensions": "502 × 254 × 755 mm",
+      "cableLength": "10 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-AMP",
+        "description": "Amplifier module fault",
+        "solution": "Check fiber and amplifier module.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check water chiller operation.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PSU",
+        "description": "Power supply fault",
+        "solution": "Check input voltage.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean optics. Schedule service.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature high",
+        "solution": "Check chiller capacity.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p500h",
+    "name": "RFL-P500H",
+    "series": "P500H",
+    "category": "Pulsed Fiber Laser",
+    "powerWatt": 500,
+    "wavelength": "1064 ± 5 nm",
+    "description": "500W High-Power Pulsed Fiber Laser — Handheld cleaning variant.",
+    "specs": {
+      "averagePower": "500 W (handheld variant)",
+      "centralWavelength": "1064 ± 5 nm",
+      "pulseWidth": "90–160 ns",
+      "repetitionRate": "10–50 kHz",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-AMP",
+        "description": "Amplifier module fault",
+        "solution": "Check fiber and amplifier module.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check water chiller operation.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PSU",
+        "description": "Power supply fault",
+        "solution": "Check input voltage.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean optics. Schedule service.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature high",
+        "solution": "Check chiller capacity.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p1000",
+    "name": "RFL-P1000",
+    "series": "P1000",
+    "category": "Pulsed Fiber Laser",
+    "powerWatt": 1000,
+    "wavelength": "1064 ± 5 nm",
+    "description": "1000W High-Power Pulsed Fiber Laser. Industrial-grade for heavy cleaning and surface treatment.",
+    "specs": {
+      "averagePower": "1000 W @ 20–50 kHz",
+      "centralWavelength": "1064 ± 5 nm",
+      "pulseWidth": "90–160 ns",
+      "repetitionRate": "10–50 kHz",
+      "pulseEnergy": "50 mJ @ 20 kHz",
+      "polarization": "Random",
+      "fiberCore": "400 μm",
+      "inputVoltage": "220V AC, 50/60 Hz",
+      "powerConsumption": "6000 W",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "powerStability": "± 5%",
+      "dimensions": "698 × 898 × 865 mm",
+      "cableLength": "15 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-AMP",
+        "description": "Amplifier module fault",
+        "solution": "Check fiber and amplifier module.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check water chiller operation.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PSU",
+        "description": "Power supply fault",
+        "solution": "Check input voltage.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean optics. Schedule service.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature high",
+        "solution": "Check chiller capacity.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-p2000",
+    "name": "RFL-P2000",
+    "series": "P2000",
+    "category": "Pulsed Fiber Laser",
+    "powerWatt": 2000,
+    "wavelength": "1064 ± 5 nm",
+    "description": "2000W High-Power Pulsed Fiber Laser. Highest power pulsed for industrial cleaning and processing.",
+    "specs": {
+      "averagePower": "2000 W @ 20–50 kHz",
+      "centralWavelength": "1064 ± 5 nm",
+      "pulseWidth": "120–160 ns",
+      "repetitionRate": "20–50 kHz",
+      "pulseEnergy": "100 mJ @ 20 kHz",
+      "polarization": "Random",
+      "fiberCore": "400 / 600 μm",
+      "inputVoltage": "380V 3-phase AC, 50/60 Hz",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "powerStability": "< 5%",
+      "dimensions": "1018 × 836 × 850 mm",
+      "cableLength": "20 m"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-SEED",
+        "description": "Seed laser fault",
+        "solution": "Restart system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-AMP",
+        "description": "Amplifier module fault",
+        "solution": "Check fiber and amplifier module.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check water chiller operation.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check interlock circuit.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PSU",
+        "description": "Power supply fault",
+        "solution": "Check input voltage.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power below threshold",
+        "solution": "Clean optics. Schedule service.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature high",
+        "solution": "Check chiller capacity.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c6000m-hp",
+    "name": "RFL-C6000M-HP",
+    "series": "HP",
+    "category": "HP CW Fiber Laser",
+    "powerWatt": 6000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "6000W HP-Series Multi-Module CW Fiber Laser. High reliability, maintenance-free, with wide modulation frequency.",
+    "specs": {
+      "outputPower": "6000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "≤ 4 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "modulationFrequency": "5 kHz",
+      "fiberCore": "100 μm",
+      "outputConnector": "QBH",
+      "inputVoltage": "360–510V AC",
+      "controlMode": "Ethernet, DeviceNet, Profinet, Profibus",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "dimensions": "900 × 980 × 1090 mm",
+      "weight": "< 360 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-MOD",
+        "description": "Module fault",
+        "solution": "Check failed module cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-COMB",
+        "description": "Combiner overheating",
+        "solution": "Check combiner cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check all interlocks.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Reduce power. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PSU",
+        "description": "Power supply fault",
+        "solution": "Check input voltage.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power degradation",
+        "solution": "Check modules. Schedule service.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature high",
+        "solution": "Check chiller.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c8000m-hp",
+    "name": "RFL-C8000M-HP",
+    "series": "HP",
+    "category": "HP CW Fiber Laser",
+    "powerWatt": 8000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "8000W HP-Series Multi-Module CW Fiber Laser. High reliability with excellent beam quality.",
+    "specs": {
+      "outputPower": "8000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamQuality": "≤ 4 mm·mrad (BPP)",
+      "powerStability": "± 1.5%",
+      "modulationFrequency": "5 kHz",
+      "fiberCore": "100 μm",
+      "outputConnector": "QD",
+      "inputVoltage": "360–510V AC",
+      "controlMode": "Ethernet, DeviceNet, Profinet, Profibus",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C",
+      "dimensions": "900 × 960 × 1160 mm",
+      "weight": "< 400 kg"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-MOD",
+        "description": "Module fault",
+        "solution": "Check failed module cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-COMB",
+        "description": "Combiner overheating",
+        "solution": "Check combiner cooling.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock disconnected",
+        "solution": "Check all interlocks.",
+        "severity": "error"
+      },
+      {
+        "code": "E-BR",
+        "description": "Back-reflection alarm",
+        "solution": "Reduce power. Inspect optics.",
+        "severity": "error"
+      },
+      {
+        "code": "E-PSU",
+        "description": "Power supply fault",
+        "solution": "Check input voltage.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power degradation",
+        "solution": "Check modules. Schedule service.",
+        "severity": "warning"
+      },
+      {
+        "code": "W-THIGH",
+        "description": "Coolant temperature high",
+        "solution": "Check chiller.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-abp-2000-2000",
+    "name": "RFL-ABP2000/2000",
+    "series": "ABP",
+    "category": "ABP Fiber Laser",
+    "powerWatt": 4000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "2000W+2000W ABP Adjustable Beam Profile. Symmetric power for balanced cutting/welding flexibility.",
+    "specs": {
+      "centerPower": "2000 W",
+      "ringPower": "2000 W",
+      "totalPower": "4000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamProfiles": "Gaussian / Ring / Mixed",
+      "centerFiberCore": "50 μm",
+      "ringFiberCore": "100 μm",
+      "beamQuality": "Center ≤ 2.2 / Ring ≤ 4 mm·mrad",
+      "modulationFrequency": "50–5000 Hz",
+      "cooling": "Air Cooled",
+      "operatingTemp": "10–40°C"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Center module overheating",
+        "solution": "Check cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T2H",
+        "description": "Ring module overheating",
+        "solution": "Check cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlocks.",
+        "severity": "error"
+      },
+      {
+        "code": "E-ABP",
+        "description": "Beam profile switching error",
+        "solution": "Restart. Check ABP fiber.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-abp-3000-5000",
+    "name": "RFL-ABP3000/5000",
+    "series": "ABP",
+    "category": "ABP Fiber Laser",
+    "powerWatt": 8000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "3000W+5000W ABP Adjustable Beam Profile. 8kW total for heavy-duty processing with beam shaping.",
+    "specs": {
+      "centerPower": "3000 W",
+      "ringPower": "5000 W",
+      "totalPower": "8000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamProfiles": "Gaussian / Ring / Mixed",
+      "centerFiberCore": "100 μm",
+      "ringFiberCore": "100 μm",
+      "beamQuality": "Center ≤ 4 / Ring ≤ 4 mm·mrad",
+      "modulationFrequency": "50–2000 Hz",
+      "cooling": "Air Cooled",
+      "operatingTemp": "10–40°C"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Center module overheating",
+        "solution": "Check cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T2H",
+        "description": "Ring module overheating",
+        "solution": "Check cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlocks.",
+        "severity": "error"
+      },
+      {
+        "code": "E-ABP",
+        "description": "Beam profile switching error",
+        "solution": "Restart. Check ABP fiber.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-abp-4000-4000",
+    "name": "RFL-ABP4000/4000",
+    "series": "ABP",
+    "category": "ABP Fiber Laser",
+    "powerWatt": 8000,
+    "wavelength": "1080 ± 5 nm",
+    "description": "4000W+4000W ABP Adjustable Beam Profile. Symmetric 8kW for uniform beam distribution.",
+    "specs": {
+      "centerPower": "4000 W",
+      "ringPower": "4000 W",
+      "totalPower": "8000 W",
+      "centralWavelength": "1080 ± 5 nm",
+      "beamProfiles": "Gaussian / Ring / Mixed",
+      "centerFiberCore": "100 μm",
+      "ringFiberCore": "100 μm",
+      "beamQuality": "Center ≤ 4 / Ring ≤ 4 mm·mrad",
+      "modulationFrequency": "50–2000 Hz",
+      "outputConnector": "IHQB",
+      "cooling": "Air Cooled",
+      "operatingTemp": "10–40°C"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Center module overheating",
+        "solution": "Check cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-T2H",
+        "description": "Ring module overheating",
+        "solution": "Check cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlocks.",
+        "severity": "error"
+      },
+      {
+        "code": "E-ABP",
+        "description": "Beam profile switching error",
+        "solution": "Restart. Check ABP fiber.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-c200am",
+    "name": "RFL-C200AM",
+    "series": "3D-Printing",
+    "category": "3D Printing Fiber Laser",
+    "powerWatt": 200,
+    "wavelength": "1080 ± 3 nm",
+    "description": "200W Single-Mode CW Fiber Laser for 3D Printing. Air-cooled, optimized for SLM/SLS powder bed fusion.",
+    "specs": {
+      "outputPower": "200 W",
+      "centralWavelength": "1080 ± 3 nm",
+      "beamQuality": "M² < 1.1",
+      "powerStability": "± 1%",
+      "modulationFrequency": "50 kHz",
+      "fiberCore": "14 μm (single-mode)",
+      "outputConnector": "QBH",
+      "cooling": "Air Cooled",
+      "operatingTemp": "15–35°C"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-T1H",
+        "description": "Pump overheating",
+        "solution": "Check cooling fans.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2023-06-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-d50",
+    "name": "RFL-FDDL50",
+    "series": "Direct-Diode",
+    "category": "Direct Diode Laser",
+    "powerWatt": 50,
+    "wavelength": "915 ± 10 nm",
+    "description": "50W Fiber Delivered Direct Diode Laser. Compact for soldering and heat treatment.",
+    "specs": {
+      "outputPower": "50 W",
+      "centralWavelength": "915 ± 10 nm",
+      "fiberCore": "200 μm",
+      "outputConnector": "SMA905",
+      "cooling": "Air Cooled",
+      "operatingTemp": "10–40°C"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-DIODE",
+        "description": "Diode module fault",
+        "solution": "Check diode module. Contact service.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean output optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-d200",
+    "name": "RFL-A200D",
+    "series": "Direct-Diode",
+    "category": "Direct Diode Laser",
+    "powerWatt": 200,
+    "wavelength": "915 ± 10 nm",
+    "description": "200W Direct Diode Laser. For heat treatment, brazing, and plastic welding.",
+    "specs": {
+      "outputPower": "200 W",
+      "centralWavelength": "915 ± 10 nm",
+      "fiberCore": "200 μm",
+      "outputConnector": "QBH",
+      "cooling": "Air Cooled",
+      "operatingTemp": "10–40°C"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-DIODE",
+        "description": "Diode module fault",
+        "solution": "Check diode module. Contact service.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean output optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-d500",
+    "name": "RFL-A500D",
+    "series": "Direct-Diode",
+    "category": "Direct Diode Laser",
+    "powerWatt": 500,
+    "wavelength": "915 ± 10 nm",
+    "description": "500W Direct Diode Laser. Mid-range for cladding and heat treatment.",
+    "specs": {
+      "outputPower": "500 W",
+      "centralWavelength": "915 ± 10 nm",
+      "fiberCore": "400 μm",
+      "outputConnector": "QBH",
+      "cooling": "Air Cooled",
+      "operatingTemp": "10–40°C"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-DIODE",
+        "description": "Diode module fault",
+        "solution": "Check diode module. Contact service.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean output optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-d3000",
+    "name": "RFL-A3000D",
+    "series": "Direct-Diode",
+    "category": "Direct Diode Laser",
+    "powerWatt": 3000,
+    "wavelength": "915 ± 10 nm",
+    "description": "3000W Direct Diode Laser. High power for industrial cladding and hardening.",
+    "specs": {
+      "outputPower": "3000 W",
+      "centralWavelength": "915 ± 10 nm",
+      "fiberCore": "600 μm",
+      "outputConnector": "HQBH",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-DIODE",
+        "description": "Diode module fault",
+        "solution": "Check diode module. Contact service.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean output optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-d12000",
+    "name": "RFL-A12000D",
+    "series": "Direct-Diode",
+    "category": "Direct Diode Laser",
+    "powerWatt": 12000,
+    "wavelength": "915 ± 10 nm",
+    "description": "12000W Direct Diode Laser. Ultra-high power for heavy industrial heat treatment.",
+    "specs": {
+      "outputPower": "12000 W",
+      "centralWavelength": "915 ± 10 nm",
+      "fiberCore": "1000 μm",
+      "outputConnector": "HQBH",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-DIODE",
+        "description": "Diode module fault",
+        "solution": "Check diode module. Contact service.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean output optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "rfl-b500d",
+    "name": "RFL-B500D",
+    "series": "Direct-Diode",
+    "category": "Direct Diode Laser",
+    "powerWatt": 500,
+    "wavelength": "430–470 nm (Blue)",
+    "description": "500W Blue Direct Diode Laser. 430-470nm wavelength for copper welding and additive manufacturing.",
+    "specs": {
+      "outputPower": "500 W",
+      "centralWavelength": "430–470 nm (Blue)",
+      "fiberCore": "400 μm",
+      "outputConnector": "QBH",
+      "cooling": "Water Cooled",
+      "operatingTemp": "10–40°C"
+    },
+    "manualUrls": [],
+    "errorCodes": [
+      {
+        "code": "E-DIODE",
+        "description": "Diode module fault",
+        "solution": "Check diode module. Contact service.",
+        "severity": "error"
+      },
+      {
+        "code": "E-TEMP",
+        "description": "Over-temperature",
+        "solution": "Check cooling system.",
+        "severity": "error"
+      },
+      {
+        "code": "E-INTLK",
+        "description": "Interlock open",
+        "solution": "Check interlock.",
+        "severity": "error"
+      },
+      {
+        "code": "W-PLOW",
+        "description": "Power low",
+        "solution": "Clean output optics.",
+        "severity": "warning"
+      }
+    ],
+    "status": "in_production",
+    "createdAt": "2024-01-01T00:00:00Z"
+  }
+]

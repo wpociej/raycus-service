@@ -1,0 +1,32 @@
+[
+  {
+    "uid": "admin-001",
+    "email": "admin@raycus-service.com",
+    "password": "admin123",
+    "displayName": "Admin User",
+    "role": "admin",
+    "company": "Raycus Service",
+    "phone": "+48 100 000 000",
+    "createdAt": "2025-01-01T00:00:00Z"
+  },
+  {
+    "uid": "customer-001",
+    "email": "demo@acmecorp.com",
+    "password": "demo123",
+    "displayName": "Jan Kowalski",
+    "role": "customer",
+    "company": "Acme Laser Cutting",
+    "phone": "+48 500 123 456",
+    "createdAt": "2025-03-15T00:00:00Z"
+  },
+  {
+    "uid": "customer-002",
+    "email": "info@betaindustries.com",
+    "password": "demo123",
+    "displayName": "Anna Nowak",
+    "role": "customer",
+    "company": "Beta Industries",
+    "phone": "+48 600 789 012",
+    "createdAt": "2025-06-10T00:00:00Z"
+  }
+]

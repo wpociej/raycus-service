@@ -5,15 +5,18 @@ import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import { Loading } from "@/components/ui/loading";
 
-export default function RootPage() {
+export function AuthGuard({ children }: { children: React.ReactNode }) {
   const { profile, loading } = useAuth();
   const router = useRouter();
 
   useEffect(() => {
-    if (!loading) {
-      router.push(profile ? "/dashboard" : "/login");
+    if (!loading && !profile) {
+      router.push("/login");
     }
   }, [profile, loading, router]);
 
-  return <Loading />;
+  if (loading) return <Loading />;
+  if (!profile) return null;
+
+  return <>{children}</>;
 }
