@@ -40,18 +40,33 @@ export default function AdminMachinesPage() {
           <h2 className="text-lg font-semibold text-amber-400 mb-3">Pending Verification ({pending.length})</h2>
           <div className="space-y-2">
             {pending.map((m) => (
-              <div key={m.id} className="bg-slate-900 border border-amber-500/30 rounded-lg px-6 py-4 flex items-center justify-between">
-                <div>
-                  <span className="font-semibold text-slate-100">{m.modelName}</span>
-                  <span className="text-slate-500 ml-3">S/N: {m.serialNumber}</span>
+              <div key={m.id} className="bg-slate-900 border border-amber-500/30 rounded-lg px-4 sm:px-6 py-4 flex flex-col sm:flex-row sm:items-center gap-3 sm:justify-between">
+                <div className="min-w-0">
+                  <span className="font-semibold text-slate-100 block sm:inline">{m.modelName}</span>
+                  <span className="text-slate-500 sm:ml-3 block sm:inline text-sm">S/N: {m.serialNumber}</span>
                 </div>
-                <Button size="sm" onClick={() => handleVerify(m.id)}>Verify</Button>
+                <Button size="sm" className="self-start sm:self-center shrink-0" onClick={() => handleVerify(m.id)}>Verify</Button>
               </div>
             ))}
           </div>
         </div>
       )}
-      <div className="bg-slate-900 rounded-xl border border-slate-800 overflow-hidden">
+      {/* Mobile card layout */}
+      <div className="md:hidden space-y-3">
+        {verified.map((m) => (
+          <div key={m.id} className="bg-slate-900 border border-slate-800 rounded-lg p-4 space-y-2">
+            <div className="font-semibold text-slate-100">{m.modelName}</div>
+            <div className="text-sm text-slate-400">S/N: {m.serialNumber}</div>
+            <div className="flex gap-2">
+              <Badge variant={m.status === "active" ? "success" : "warning"}>{m.status}</Badge>
+              <Badge variant="success">Verified</Badge>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Desktop table layout */}
+      <div className="hidden md:block bg-slate-900 rounded-xl border border-slate-800 overflow-hidden">
         <div className="grid grid-cols-[1fr_1fr_120px_120px] gap-4 px-6 py-3 bg-slate-800/50 text-xs text-slate-500 uppercase font-semibold">
           <div>Model</div><div>Serial Number</div><div>Status</div><div>Verified</div>
         </div>

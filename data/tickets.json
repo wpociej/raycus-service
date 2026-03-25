@@ -1,0 +1,70 @@
+[
+  {
+    "id": "ticket-001",
+    "subject": "RFL-C3000S power output dropping after 2 hours",
+    "description": "Our RFL-C3000S laser starts at full 3000W but drops to ~2400W after approximately 2 hours of continuous cutting. Coolant temperature appears normal. We've cleaned the output lens and QBH connector but issue persists.",
+    "machineId": "mach-001",
+    "machineName": "RFL-C3000S",
+    "machineSerial": "RY2024-03-5678",
+    "errorCode": "W-PLOW",
+    "customerId": "customer-001",
+    "customerName": "Jan Kowalski",
+    "customerCompany": "Acme Laser Cutting",
+    "priority": "high",
+    "status": "in_progress",
+    "messages": [
+      {
+        "id": "msg-001",
+        "authorId": "customer-001",
+        "authorName": "Jan Kowalski",
+        "authorRole": "customer",
+        "text": "The power drop happens consistently after about 2 hours. We're cutting 10mm mild steel. Coolant temp stays at 22°C.",
+        "createdAt": "2026-03-20T10:00:00Z"
+      },
+      {
+        "id": "msg-002",
+        "authorId": "admin-001",
+        "authorName": "Admin User",
+        "authorRole": "admin",
+        "text": "Thank you for the detailed report. This pattern suggests possible thermal lensing in the output optics or a degrading pump diode. Please check:\n1. Water flow rate to the output head specifically (should be > 4 L/min)\n2. Ambient temperature in the laser room\n3. Any condensation on optical surfaces\n\nWe'll schedule a site visit if these checks don't resolve it.",
+        "createdAt": "2026-03-20T14:30:00Z"
+      },
+      {
+        "id": "msg-003",
+        "authorId": "customer-001",
+        "authorName": "Jan Kowalski",
+        "authorRole": "customer",
+        "text": "Water flow rate was only 2.8 L/min to the output head — we found a partial blockage in the cooling line. Flushing now. Will report back.",
+        "createdAt": "2026-03-21T09:15:00Z"
+      }
+    ],
+    "createdAt": "2026-03-20T09:45:00Z",
+    "updatedAt": "2026-03-21T09:15:00Z"
+  },
+  {
+    "id": "ticket-002",
+    "subject": "E-BR alarm during aluminum cutting",
+    "description": "Getting frequent E-BR (back-reflection) alarms when cutting 3mm aluminum sheet on our RFL-C6000S. The laser shuts down and requires manual restart. This started happening after we switched from steel to aluminum jobs.",
+    "machineId": "mach-002",
+    "machineName": "RFL-C6000S",
+    "machineSerial": "RY2024-06-1234",
+    "errorCode": "E-BR",
+    "customerId": "customer-001",
+    "customerName": "Jan Kowalski",
+    "customerCompany": "Acme Laser Cutting",
+    "priority": "critical",
+    "status": "open",
+    "messages": [
+      {
+        "id": "msg-004",
+        "authorId": "customer-001",
+        "authorName": "Jan Kowalski",
+        "authorRole": "customer",
+        "text": "We're using nitrogen assist gas at 12 bar. Cutting speed is 15m/min. The alarm triggers randomly during piercing. Production is severely affected.",
+        "createdAt": "2026-03-22T08:00:00Z"
+      }
+    ],
+    "createdAt": "2026-03-22T07:50:00Z",
+    "updatedAt": "2026-03-22T08:00:00Z"
+  }
+]

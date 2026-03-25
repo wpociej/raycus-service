@@ -13,7 +13,7 @@ export default function RegisterMachinePage() {
   const { profile } = useAuth();
   const router = useRouter();
   const [models, setModels] = useState<MachineModel[]>([]);
-  const [form, setForm] = useState({ serialNumber: "", modelId: "", purchaseDate: "", warrantyYears: "2" });
+  const [form, setForm] = useState({ serialNumber: "", modelId: "", purchaseDate: "" });
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
@@ -21,22 +21,18 @@ export default function RegisterMachinePage() {
     fetch("/api/models").then((r) => r.json()).then(setModels);
   }, []);
 
+  const selectedModel = models.find((m) => m.id === form.modelId);
+  const warrantyYears = selectedModel?.warrantyYears ?? 2;
+
   function update(field: string, value: string) {
     setForm((prev) => ({ ...prev, [field]: value }));
   }
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (!profile) return;
+    if (!profile || !selectedModel) return;
     setError("");
     setLoading(true);
-
-    const selectedModel = models.find((m) => m.id === form.modelId);
-    if (!selectedModel) { setError("Please select a model"); setLoading(false); return; }
-
-    const purchaseDate = new Date(form.purchaseDate);
-    const warrantyExpiry = new Date(purchaseDate);
-    warrantyExpiry.setFullYear(warrantyExpiry.getFullYear() + parseInt(form.warrantyYears));
 
     try {
       const res = await fetch("/api/machines", {
@@ -47,8 +43,7 @@ export default function RegisterMachinePage() {
           modelId: form.modelId,
           modelName: selectedModel.name,
           ownerId: profile.uid,
-          purchaseDate: purchaseDate.toISOString(),
-          warrantyExpiry: warrantyExpiry.toISOString(),
+          purchaseDate: new Date(form.purchaseDate).toISOString(),
           status: "active",
         }),
       });
@@ -63,35 +58,48 @@ export default function RegisterMachinePage() {
       <Card>
         <CardHeader>
           <h1 className="text-xl font-bold">Register a Machine</h1>
-          <p className="text-sm text-slate-400">Enter your machine details to register it</p>
+          <p className="text-sm text-slate-400">Enter your machine details — warranty is calculated automatically</p>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">
             {error && <p className="text-red-400 text-sm">{error}</p>}
             <div>
-              <label className="block text-sm text-slate-400 mb-1">Serial Number</label>
+              <label className="block text-sm text-slate-400 mb-1">Serial Number *</label>
               <Input value={form.serialNumber} onChange={(e) => update("serialNumber", e.target.value)} required placeholder="e.g. RY2024-06-1234" />
             </div>
             <div>
-              <label className="block text-sm text-slate-400 mb-1">Model</label>
+              <label className="block text-sm text-slate-400 mb-1">Model *</label>
               <select value={form.modelId} onChange={(e) => update("modelId", e.target.value)} required className="w-full rounded-lg bg-slate-800 border border-slate-700 px-4 py-2 text-sm text-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
                 <option value="">Select a model...</option>
-                {models.map((m) => (<option key={m.id} value={m.id}>{m.name} — {m.powerWatt}W</option>))}
+                {models.map((m) => (
+                  <option key={m.id} value={m.id}>{m.name} — {m.powerWatt >= 1000 ? `${m.powerWatt / 1000}kW` : `${m.powerWatt}W`}</option>
+                ))}
               </select>
             </div>
             <div>
-              <label className="block text-sm text-slate-400 mb-1">Purchase Date</label>
+              <label className="block text-sm text-slate-400 mb-1">Purchase Date *</label>
               <Input type="date" value={form.purchaseDate} onChange={(e) => update("purchaseDate", e.target.value)} required />
             </div>
-            <div>
-              <label className="block text-sm text-slate-400 mb-1">Warranty Period</label>
-              <select value={form.warrantyYears} onChange={(e) => update("warrantyYears", e.target.value)} className="w-full rounded-lg bg-slate-800 border border-slate-700 px-4 py-2 text-sm text-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
-                <option value="1">1 Year</option>
-                <option value="2">2 Years</option>
-                <option value="3">3 Years</option>
-              </select>
-            </div>
-            <Button type="submit" disabled={loading} className="w-full">{loading ? "Registering..." : "Register Machine"}</Button>
+
+            {selectedModel && form.purchaseDate && (
+              <div className="bg-slate-800 rounded-lg p-4 border border-slate-700">
+                <p className="text-sm text-slate-300">
+                  <span className="text-slate-500">Warranty:</span>{" "}
+                  <strong className="text-emerald-400">{warrantyYears} years</strong>{" "}
+                  (auto-calculated for {selectedModel.name})
+                </p>
+                <p className="text-sm text-slate-300 mt-1">
+                  <span className="text-slate-500">Expires:</span>{" "}
+                  {(() => {
+                    const d = new Date(form.purchaseDate);
+                    d.setFullYear(d.getFullYear() + warrantyYears);
+                    return d.toLocaleDateString();
+                  })()}
+                </p>
+              </div>
+            )}
+
+            <Button type="submit" disabled={loading || !selectedModel} className="w-full">{loading ? "Registering..." : "Register Machine"}</Button>
           </form>
         </CardContent>
       </Card>

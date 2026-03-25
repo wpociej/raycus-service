@@ -28,8 +28,8 @@ export default function ModelDetailPage({ params }: { params: Promise<{ modelId:
   return (
     <div className="p-6">
       <Link href="/catalog" className="text-blue-500 text-sm hover:underline mb-4 inline-block">← Back to Catalog</Link>
-      <div className="flex gap-6">
-        <div className="flex-1">
+      <div className="flex flex-col lg:flex-row gap-6">
+        <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-3">
             <Badge>CW Fiber Laser</Badge>
             <Badge variant={model.status === "in_production" ? "success" : "warning"}>
@@ -47,7 +47,7 @@ export default function ModelDetailPage({ params }: { params: Promise<{ modelId:
             ))}
           </div>
         </div>
-        <div className="w-72 flex-shrink-0 space-y-4">
+        <div className="w-full lg:w-72 lg:flex-shrink-0 space-y-4">
           <Card>
             <CardContent className="pt-6">
               <h3 className="font-semibold mb-3">Documents</h3>

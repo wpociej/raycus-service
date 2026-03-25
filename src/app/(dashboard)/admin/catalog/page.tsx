@@ -23,7 +23,27 @@ export default function AdminCatalogPage() {
         <h1 className="text-2xl font-bold">Manage Catalog</h1>
         <Link href="/admin/catalog/new"><Button>+ Add Model</Button></Link>
       </div>
-      <div className="bg-slate-900 rounded-xl border border-slate-800 overflow-hidden">
+      {/* Mobile card layout */}
+      <div className="md:hidden space-y-3">
+        {models.map((m) => (
+          <div key={m.id} className="bg-slate-900 border border-slate-800 rounded-lg p-4 space-y-2">
+            <div className="font-semibold text-slate-100">{m.name}</div>
+            <div className="flex flex-wrap gap-2 text-sm">
+              <span className="text-slate-400">{m.powerWatt}W</span>
+              <span className="text-slate-600">|</span>
+              <span className="text-slate-400">{m.wavelength}</span>
+              <span className="text-slate-600">|</span>
+              <span className="text-slate-400">{m.errorCodes?.length || 0} errors</span>
+            </div>
+            <div>
+              <Badge variant={m.status === "in_production" ? "success" : "warning"}>{m.status === "in_production" ? "Active" : "EOL"}</Badge>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Desktop table layout */}
+      <div className="hidden md:block bg-slate-900 rounded-xl border border-slate-800 overflow-hidden">
         <div className="grid grid-cols-[1fr_100px_100px_100px_80px] gap-4 px-6 py-3 bg-slate-800/50 text-xs text-slate-500 uppercase font-semibold">
           <div>Model</div><div>Power</div><div>Wavelength</div><div>Status</div><div>Errors</div>
         </div>

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getMachines, getMachinesByOwner, addMachine, getUserByUid } from "@/lib/local-db";
+import { getTickets, getTicketsByCustomer, createTicket, getUserByUid } from "@/lib/local-db";
 import { cookies } from "next/headers";
 
 export async function GET() {
@@ -10,8 +10,8 @@ export async function GET() {
   const user = getUserByUid(session.value);
   if (!user) return NextResponse.json({ error: "User not found" }, { status: 401 });
 
-  const machines = user.role === "admin" ? getMachines() : getMachinesByOwner(user.uid);
-  return NextResponse.json(machines);
+  const tickets = user.role === "admin" ? getTickets() : getTicketsByCustomer(user.uid);
+  return NextResponse.json(tickets);
 }
 
 export async function POST(req: NextRequest) {
@@ -20,14 +20,6 @@ export async function POST(req: NextRequest) {
   if (!session?.value) return NextResponse.json({ error: "Not authenticated" }, { status: 401 });
 
   const data = await req.json();
-  // Warranty is auto-calculated in addMachine based on model
-  const machine = addMachine({
-    serialNumber: data.serialNumber,
-    modelId: data.modelId,
-    modelName: data.modelName,
-    ownerId: data.ownerId,
-    purchaseDate: new Date(data.purchaseDate),
-    status: data.status || "active",
-  });
-  return NextResponse.json(machine);
+  const ticket = createTicket(data);
+  return NextResponse.json(ticket);
 }

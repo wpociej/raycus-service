@@ -34,6 +34,7 @@ export interface MachineModel {
   specs: Record<string, string>;
   manualUrls: string[];
   errorCodes: ErrorCode[];
+  warrantyYears?: number;
   status: "in_production" | "discontinued";
   createdAt: Date;
 }
@@ -56,4 +57,49 @@ export interface Machine {
   status: MachineStatus;
   verifiedByAdmin: boolean;
   registeredAt: Date;
+}
+
+// --- Support Tickets ---
+
+export type TicketPriority = "critical" | "high" | "normal" | "low";
+export type TicketStatus = "open" | "in_progress" | "waiting_customer" | "resolved" | "closed";
+
+export interface TicketMessage {
+  id: string;
+  authorId: string;
+  authorName: string;
+  authorRole: UserRole;
+  text: string;
+  createdAt: string;
+}
+
+export interface Ticket {
+  id: string;
+  subject: string;
+  description: string;
+  machineId: string;
+  machineName: string;
+  machineSerial: string;
+  errorCode?: string;
+  customerId: string;
+  customerName: string;
+  customerCompany: string;
+  priority: TicketPriority;
+  status: TicketStatus;
+  messages: TicketMessage[];
+  createdAt: string;
+  updatedAt: string;
+}
+
+// --- Knowledge Base ---
+
+export interface KBArticle {
+  id: string;
+  title: string;
+  slug: string;
+  category: string;
+  tags: string[];
+  content: string;
+  relatedModels: string[];
+  createdAt: string;
 }
