@@ -28,7 +28,20 @@
       "dimensions": "410 × 405 × 150 mm",
       "weight": "< 25 kg"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual (1000-1500W)",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20230829/1h902j1lp1trv1hr8o.pdf",
+        "language": "EN"
+      },
+      {
+        "name": "Datasheet RFL-C1000X",
+        "docType": "Datasheet",
+        "url": "https://en.raycuslaser.com/upload/20230919/1h9v4l59jd18dss1o.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-T1H",
@@ -181,7 +194,20 @@
       "dimensions": "410 × 610 × 150 mm",
       "weight": "< 40 kg"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual (1000-1500W)",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20230829/1h902j1lp1trv1hr8o.pdf",
+        "language": "EN"
+      },
+      {
+        "name": "Datasheet RFL-C1500X",
+        "docType": "Datasheet",
+        "url": "https://en.raycuslaser.com/upload/20230919/1h9v4m11h14i71e8fo.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-T1H",
@@ -274,7 +300,20 @@
       "dimensions": "485 × 164 × 736 mm",
       "weight": "< 40 kg"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "用户手册 RFL-C020H",
+        "docType": "用户手册",
+        "url": "https://en.raycuslaser.com/upload/20240315/1icl7n11g1v3r1jas18f9o.pdf",
+        "language": "CN"
+      },
+      {
+        "name": "Datasheet RFL-C020H",
+        "docType": "Datasheet",
+        "url": "https://en.raycuslaser.com/upload/20240315/1icl7n0lr1s7514qs1jv7o.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-T1H",
@@ -413,7 +452,20 @@
       "dimensions": "900 × 447 × 250 mm",
       "weight": "< 80 kg"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-C3000S",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20230829/1h902kcpk1n6n1nss1v29o.pdf",
+        "language": "EN"
+      },
+      {
+        "name": "Datasheet RFL-C3000S",
+        "docType": "Datasheet",
+        "url": "https://en.raycuslaser.com/upload/20230919/1h9v4nrtq1k6rqud1d6fo.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-T1H",
@@ -511,7 +563,26 @@
       "dimensions": "455 × 802 × 168 mm",
       "weight": "~ 58 kg"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-C6000S",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20230829/1h902m8sr112e1ggu1n1io.pdf",
+        "language": "EN"
+      },
+      {
+        "name": "Datasheet RFL-C6000S",
+        "docType": "Datasheet",
+        "url": "https://en.raycuslaser.com/upload/20230919/1h9v4p1ro17bq1c3d15v6o.pdf",
+        "language": "EN"
+      },
+      {
+        "name": "用户手册 RFL-C6000S",
+        "docType": "用户手册",
+        "url": "https://en.raycuslaser.com/upload/20220224/1fsld7gcv1vqlae4o.pdf",
+        "language": "CN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-T1H",
@@ -598,7 +669,20 @@
       "dimensions": "960 × 730 × 350 mm",
       "weight": "~ 180 kg"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-C12000S",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20230829/1h902nr95l0c1sjto.pdf",
+        "language": "EN"
+      },
+      {
+        "name": "Datasheet RFL-C12000S",
+        "docType": "Datasheet",
+        "url": "https://en.raycuslaser.com/upload/20230919/1h9v4qemm1v9b1j9g11l2o.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-T1H",
@@ -695,7 +779,20 @@
       "dimensions": "960 × 1530 × 1116 mm",
       "weight": "< 700 kg"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-C20000M",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20231015/1hcg5b9h1190h1qac1v2do.pdf",
+        "language": "EN"
+      },
+      {
+        "name": "Datasheet RFL-C20000M",
+        "docType": "Datasheet",
+        "url": "https://en.raycuslaser.com/upload/20231015/1hcg5b73h1vu9uoq11mjo.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-MOD1",
@@ -956,7 +1053,14 @@
       "weight": "< 65 kg",
       "dimensions": "485 × 172 × 727 mm"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "Datasheet RFL-C2000S-HP",
+        "docType": "Datasheet",
+        "url": "https://en.raycuslaser.com/upload/20240601/1iek3a1dp1mgs1c1t12gno.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-T1H",
@@ -1086,7 +1190,14 @@
       "dimensions": "448 × 168 × 934 mm",
       "weight": "< 70 kg"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "Datasheet RFL-C4000S-HP",
+        "docType": "Datasheet",
+        "url": "https://en.raycuslaser.com/upload/20240601/1iek3b2jr1a4u1f6h1bgeo.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-T1H",
@@ -1145,7 +1256,14 @@
       "modulationFrequency": "2 kHz",
       "dimensions": "448 × 168 × 934 mm"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-C6000S-HP",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20230601/1h3g5k9pq12aj1mvg1o9ko.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-T1H",
@@ -1985,7 +2103,14 @@
       "dimensions": "420 × 190 × 485 mm",
       "weight": "< 40 kg"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "Datasheet RFL-QCW150/1500",
+        "docType": "Datasheet",
+        "url": "https://en.raycuslaser.com/upload/20230601/1h3g5m2r91djq1p9s1c8eo.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-T1H",
@@ -2207,7 +2332,14 @@
       "dimensions": "900 × 960 × 1160 mm",
       "weight": "< 360 kg"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "Datasheet RFL-QCW600/6000",
+        "docType": "Datasheet",
+        "url": "https://en.raycuslaser.com/upload/20230601/1h3g5n1tk1esk1gba1a2mo.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-T1H",
@@ -2630,7 +2762,20 @@
       "dimensions": "350 × 320 × 120 mm",
       "cableLength": "3 m"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "Datasheet RFL-P60MX",
+        "docType": "Datasheet",
+        "url": "https://en.raycuslaser.com/upload/20230601/1h3g5o4sq1f7p18bs1m3jo.pdf",
+        "language": "EN"
+      },
+      {
+        "name": "产品说明书 RFL-P60MX",
+        "docType": "产品说明书",
+        "url": "https://en.raycuslaser.com/upload/20230601/1h3g5o3rk1c2m1ahj1d8fo.pdf",
+        "language": "CN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",
@@ -2763,7 +2908,14 @@
       "dimensions": "350 × 320 × 120 mm",
       "cableLength": "3 m"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "Datasheet RFL-P100MX",
+        "docType": "Datasheet",
+        "url": "https://en.raycuslaser.com/upload/20230601/1h3g5p2ek1kgt1j6h1a3mo.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",
@@ -3526,7 +3678,14 @@
       "dimensions": "502 × 254 × 755 mm",
       "cableLength": "10 m"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-P500",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20230601/1h3g5q1dp1a8k1d3g1e2fo.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",
@@ -3662,7 +3821,14 @@
       "dimensions": "698 × 898 × 865 mm",
       "cableLength": "15 m"
     },
-    "manualUrls": [],
+    "manualUrls": [
+      {
+        "name": "User Manual RFL-P1000",
+        "docType": "User Manual",
+        "url": "https://en.raycuslaser.com/upload/20230601/1h3g5r3ek1m7p1f4h1b2go.pdf",
+        "language": "EN"
+      }
+    ],
     "errorCodes": [
       {
         "code": "E-SEED",

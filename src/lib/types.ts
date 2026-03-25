@@ -32,11 +32,18 @@ export interface MachineModel {
   wavelength: string;
   description: string;
   specs: Record<string, string>;
-  manualUrls: string[];
+  manualUrls: ModelDocument[];
   errorCodes: ErrorCode[];
   warrantyYears?: number;
   status: "in_production" | "discontinued";
   createdAt: Date;
+}
+
+export interface ModelDocument {
+  name: string;
+  docType: string;
+  url: string;
+  language: "EN" | "CN";
 }
 
 export interface ErrorCode {
